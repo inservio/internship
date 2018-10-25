@@ -52,23 +52,29 @@ The list of DNS record types is an overview of resource records (RRs) permissibl
 If we want to display A records use the command dig A.
 
  Display the output
-
-```;; QUESTION SECTION:
+```
+;; QUESTION SECTION:
 ;google.com.                    IN      A
 
 ;; ANSWER SECTION:
-google.com.             6       IN      A       172.217.16.110```
+google.com.             6       IN      A       172.217.16.110
+```
+Another option is ```dig A google.com +short```
+
+Display the output
+```172.217.16.110```
 
 
 
-```dig goole.com MX```
+
+```dig google.com MX```
 
 
 If we want to display MX records use the command dig MX.
 
 Display the output
-
-```;; QUESTION SECTION:
+```
+;; QUESTION SECTION:
 ;google.com.                    IN      MX
 
 ;; ANSWER SECTION:
@@ -76,23 +82,41 @@ google.com.             487     IN      MX      50 alt4.aspmx.l.google.com.
 google.com.             487     IN      MX      40 alt3.aspmx.l.google.com.
 google.com.             487     IN      MX      20 alt1.aspmx.l.google.com.
 google.com.             487     IN      MX      30 alt2.aspmx.l.google.com.
-google.com.             487     IN      MX      10 aspmx.l.google.com.```
+google.com.             487     IN      MX      10 aspmx.l.google.com.
+```
+Another option is ``` dig MX google.com +short```
 
+Display the output
+```
+50 alt4.aspmx.l.google.com.
+30 alt2.aspmx.l.google.com.
+20 alt1.aspmx.l.google.com.
+40 alt3.aspmx.l.google.com.
+10 aspmx.l.google.com.
+```
 
-
-```dig goole.com NS```
+```dig google.com NS```
 
 If we want to display NS records we use the command dig NS.
 
 Display the output
-
-```;; QUESTION SECTION:
+```
+;; QUESTION SECTION:
 ;google.com.                    IN      NS
 
 ;; ANSWER SECTION:
 google.com.             150015  IN      NS      ns3.google.com.
 google.com.             150015  IN      NS      ns1.google.com.
 google.com.             150015  IN      NS      ns2.google.com.
-google.com.             150015  IN      NS      ns4.google.com.```
+google.com.             150015  IN      NS      ns4.google.com.
+```
+Another option is ```dig NS google.com +short```
 
+Display the output
 
+```
+ns4.google.com.
+ns1.google.com.
+ns2.google.com.
+ns3.google.com.
+```

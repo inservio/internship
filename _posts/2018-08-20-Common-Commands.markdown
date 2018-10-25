@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Domain Name System Category!"
+title:  "Common Commands!"
 date:   2018-10-4 13:31:20 +0200
 categories: Common Commands
 ---
@@ -50,6 +50,6 @@ For example we can use escaping characters for creating a fie with a space in th
 If we want to escape one character we use ```\```.
 For escaping more words, we use single```'``` or double quotes```""```.
 
-## Command mkdir mkdir -p mkdir --parents
+## Command mkdir mkdir -p mkdir --parents rmdir
 We use it when we want to create a directory.
 And then with the command ```rmdir``` we use when we want to delete a directory.
