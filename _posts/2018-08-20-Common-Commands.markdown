@@ -53,3 +53,20 @@ For escaping more words, we use single```'``` or double quotes```""```.
 ## Command mkdir mkdir -p mkdir --parents rmdir
 We use it when we want to create a directory.
 And then with the command ```rmdir``` we use when we want to delete a directory.
+
+## Command find
+
+we use when we want to find a file or directory, which has certain characteristics and is located in the specified directory tree.
+ 
+### Command fins has other options like:
+
+```find -type f $1``` we use this command if we want to find only files from the current directory
+```find -type d $1``` we use this command if we want to find only directorys
+
+## Command touch
+we use when we want to create a file
+
+Example: 
+```touch $1```
+
+
