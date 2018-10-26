@@ -42,21 +42,21 @@ The variables have the values when in the command line they are left of the equa
 
 Example
 
-NAME=Adi
-echo Hello $NAME
+```NAME=Adi
+echo Hello $NAME```
 
 Display the output
+
 ```Adi```
 
-Example
 
-```
-JOHN=John
+
+```JOHN=John
 NAME=$JOHN
 PAGE=Page
 SURNAME=$PAGE
 NAME_AND_SURNAME=$NAME$SURNAME
 echo My name and my last name is ${NAME} ${SURNAME}
-```
+
 Display the output
-```My name and my surname is John Page``` 
+My name and my surname is John Page``` 
