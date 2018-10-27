@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Domain Name System Category!"
+title:  "Domain Name System!"
 date:   2018-10-4 13:31:20 +0200
 categories: DNS category
 ---
@@ -47,21 +47,24 @@ The list of DNS record types is an overview of resource records (RRs) permissibl
 
 ### Examples
 
-```dig google.com A```
-
 If we want to display A records use the command dig A.
+
+```dig google.com A```
 
 ### Display the output
 
-```;; QUESTION SECTION:
+{% highlight bash %}
+;; QUESTION SECTION:
 ;google.com.                    IN      A
 
 ;; ANSWER SECTION:
-google.com.             6       IN      A       172.217.16.110```
+google.com.             6       IN      A       172.217.16.110
+{% endhighlight bash %}
 
 ### Another option is 
-
-```dig A google.com +short```
+{% highlight bash %}
+dig A google.com +short
+{% endhighlight bash %}
 
 ### Display the output
 
@@ -73,7 +76,8 @@ If we want to display MX records use the command dig MX.
 
 ### Display the output
 
-```;; QUESTION SECTION:
+{% highlight bash %}
+;; QUESTION SECTION:
 ;google.com.                    IN      MX
 
 ;; ANSWER SECTION:
@@ -81,47 +85,51 @@ google.com.             487     IN      MX      50 alt4.aspmx.l.google.com.
 google.com.             487     IN      MX      40 alt3.aspmx.l.google.com.
 google.com.             487     IN      MX      20 alt1.aspmx.l.google.com.
 google.com.             487     IN      MX      30 alt2.aspmx.l.google.com.
-google.com.             487     IN      MX      10 aspmx.l.google.com.```
-
+google.com.             487     IN      MX      10 aspmx.l.google.com.
+{% endhighlight bash %}
 
 ### Another option is 
-
-``` dig MX google.com +short```
+{% highlight bash %}
+ dig MX google.com +short
+{% endhighlight bash %}
 
 ### Display the output
 
-```50 alt4.aspmx.l.google.com.
+{% highlight bash %}
+50 alt4.aspmx.l.google.com.
 30 alt2.aspmx.l.google.com.
 20 alt1.aspmx.l.google.com.
 40 alt3.aspmx.l.google.com.
-10 aspmx.l.google.com.```
-
-
-```dig google.com NS```
+10 aspmx.l.google.com.
+{% endhighlight bash %}
 
 If we want to display NS records we use the command dig NS.
 
+```dig google.com NS```
+
 ### Display the output
 
-```;; QUESTION SECTION:
+{% highlight bash %}
+;; QUESTION SECTION:
 ;google.com.                    IN      NS
 
 ;; ANSWER SECTION:
 google.com.             150015  IN      NS      ns3.google.com.
 google.com.             150015  IN      NS      ns1.google.com.
 google.com.             150015  IN      NS      ns2.google.com.
-google.com.             150015  IN      NS      ns4.google.com.```
+google.com.             150015  IN      NS      ns4.google.com.
+{% endhighlight bash %}
 
 ### Another option is: 
-
-```dig NS google.com +short```
-
+{% highlight bash %}
+dig NS google.com +short
+{% endhighlight bash %}
 
 ### Display the output
 
-
-```ns4.google.com.
+{% highlight bash %}
+ns4.google.com.
 ns1.google.com.
 ns2.google.com.
-ns3.google.com.```
-
+ns3.google.com.
+{% endhighlight bash %}

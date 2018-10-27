@@ -41,22 +41,23 @@ The variable names are composed of alphanumeric characters and underscores, prov
 The variables have the values when in the command line they are left of the equals sign (=).
 
 Example
+{% highlight ruby %}
 
-```NAME=Adi
+NAME=Adi
 echo Hello $NAME```
 
 Display the output
 
-```Adi```
+Adi
+{% endhighlight ruby %}
 
-
-
-```JOHN=John
+{% highlight ruby %}
+JOHN=John
 NAME=$JOHN
 PAGE=Page
 SURNAME=$PAGE
 NAME_AND_SURNAME=$NAME$SURNAME
 echo My name and my last name is ${NAME} ${SURNAME}
-
 Display the output
-My name and my surname is John Page``` 
+My name and my surname is John Page
+{% endhighlight ruby %}

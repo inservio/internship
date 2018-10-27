@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Shell Script Programming Category!"
+title:  "Shell Script Programming!"
 date:   2018-09-7 13:31:20 +0200
 categories: SSP category
 ---
@@ -52,16 +52,22 @@ In the shell, this can be achieved if you use the if-then-else construction.
 
 #### Example for if-then-else construction
 
-```if [1 -lt 100]
+{% highlight ruby %}
+if [1 -lt 100]
 then
 echo "Correct"
 else
 echo "Not Correct"
-fi```
+fi
+{% endhighlight ruby %}
 
-Display the output
-"Correct"
+#### Display the output
+
+{% highlight ruby %}
+Correct
 Because 1 is less than 100.
+{% endhighlight ruby %}
+
 
 ## Making decisions in shell programs
 One of the advantages that gives computer programming languages great power is their ability to make decisions.
@@ -73,13 +79,17 @@ In most computer languages, this command is called if-then construction.
 #### Example for if-then construction
 Command if-then example
 Combine the command ls -a -l and display the length of the list.
-```if ls
+
+{% highlight ruby %}
+if ls
 then
 ls -a
 ls -l
-fi```
+fi
+{% endhighlight ruby %}
 
-Perform arithmetic operations over shell variables
+
+## Perform arithmetic operations over shell variables
 
 Variables are typed in most programming languages, which means they are limited to certain types of data, such as numbers or characters. Shell variables are always remembered as $
 
