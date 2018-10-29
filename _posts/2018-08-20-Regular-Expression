@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Regular Expression"
+date:   2018-10-4 13:31:20 +0200
+categories: Regular Expression
+---
+
+
+## Interval Regular expressions
+
+### Example
+---
+
+{% highlight bash %}
+
+cat README.md | grep l
+
+{% highlight bash %}
+
+
+## Brace expansion
+
+
+{% highlight bash %}
+echo Aa Bb Cc Dd
+echo {0..100}
+echo a{0..10}b
+
+{% highlight bash %}
+
+
