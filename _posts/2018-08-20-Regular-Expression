@@ -15,7 +15,7 @@ categories: Regular Expression
 
 cat README.md | grep l
 
-{% highlight bash %}
+{% endhighlight bash %}
 
 
 ## Brace expansion
@@ -26,6 +26,19 @@ echo Aa Bb Cc Dd
 echo {0..100}
 echo a{0..10}b
 
+{% endhighlight bash %}
+
+## Basic Reuglar expressiond
+
+### Example
+```^``` we use for search for the beginning string. 
+```$``` we use for search for the end of the string.
+
+#### More examples
 {% highlight bash %}
 
+cat README.md | grep '^L'
 
+cat README.md | grep 'A$'
+
+{% endhighlight bash %}
