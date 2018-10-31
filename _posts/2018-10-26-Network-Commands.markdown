@@ -36,14 +36,14 @@ ping -i 3 google.com
 we use to specify the execute number for ping command.
 {% highlight bash %}
 ping -c 5 google.com
-{% highlight bash %}
+{% endhighlight bash %}
 
 ##### Command ```ping -s 100 google.com```
 we use when we want to change the size of the packet.
 
 {% highlight bash %}
 ping -s 100 google.com
-{% highlight bash %}
+{% endhighlight bash %}
 
 ## Command ```traceroute```
 We use it to show details about the path that a packet takes to a specified destination.
