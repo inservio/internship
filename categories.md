@@ -7,7 +7,7 @@ permalink: /categories/
 <p>Posts from internship inservio are:</p>
 
 <ul>
-{% for post in internship.inservio.ba %}
+{% for post in /Users/adi/inservio/internship/_posts %}
   {% if post.url %}
 	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endif %}	 
