@@ -10,6 +10,5 @@ permalink: /kategorije/
 {% for post in internship.inservio.ba % }
   {% if post.url %}
 	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endif %}
  {% endfor %}
 </ul>
