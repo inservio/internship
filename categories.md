@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Kategorije
-permalink: /kategorije/
+title: Categories
+permalink: /categories/
 ---
 
 <p>Posts from internship inservio are:</p>
