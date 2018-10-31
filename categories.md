@@ -10,5 +10,6 @@ permalink: /categories/
 {% for post in internship.inservio.ba %}
   {% if post.url %}
 	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
- {% endfor %}
+  {% endif %}	 
+{% endfor %}
 </ul>
