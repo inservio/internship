@@ -137,21 +137,29 @@ ns3.google.com.
 If we want to display TXT records we use the command 
 {% highlight bash %}
 dig TXT google.com
-Another option is
+{% endhighlight bash %}
+
+### Another option is
+{% highlight bash %}
 dig TXT google.com +short
 {% endhighlight bash %}
 
 If we want to display CNAME records we use the command
 {% highlight bash %}
 dig CNAME google.com
-Another option is
+{% endhighlight bash %}
+
+### Another option is
+{% highlight bash %}
 dig CNAME google.com +short
 {% endhighlight bash %}
 
 If we want to explicitly dig nameserver NS we use the command
 {% highlight bash %}
+dig @ns1.google.com. google.com A
+{% endhighlight bash %}
 
+### Another option is
+{% highlight bash %}
 dig @ns1.google.com. google.com A +short
-Another option is
-dig @ns1.google.com. google.com A +short
-{% endhighlight bash %}}
+{% endhighlight bash %}
