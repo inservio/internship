@@ -2,7 +2,7 @@
 layout: post
 title:  "Common Commands!"
 date:   2018-10-4 13:31:20 +0200
-categories: Common Commands
+categories: test category
 ---
 
 ## The most common command in Linux/Unix is ```ls```.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Shell Variables!"
 date:   2018-10-4 13:31:20 +0200
-categories: SV category
+categories: test category
 ---
 
 ## Position variables, or shell arguments

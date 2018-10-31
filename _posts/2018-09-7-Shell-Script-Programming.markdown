@@ -2,7 +2,7 @@
 layout: post
 title:  "Shell Script Programming!"
 date:   2018-09-7 13:31:20 +0200
-categories: SSP category
+categories: test category
 ---
 
 ## What's the program?

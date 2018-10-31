@@ -2,7 +2,7 @@
 layout: post
 title:  "Domain Name System!"
 date:   2018-10-4 13:31:20 +0200
-categories: DNS category
+categories: test category
 ---
 # Domain Name System (DNS)
 ## What is DNS?
