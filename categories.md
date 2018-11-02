@@ -4,7 +4,7 @@ title: Categories
 permalink: /categories/
 ---
 
-<p>Posts from internship inservio are:</p>
+<p>Posts from <strong>test</strong> category are:</p>
 
 <ul>
 {% for post in site.categories.test %}
