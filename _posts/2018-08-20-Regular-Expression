@@ -2,7 +2,7 @@
 layout: post
 title:  "Regular Expression"
 date:   2018-10-4 13:31:20 +0200
-categories: test category
+categories: regex category
 ---
 
 
@@ -31,7 +31,7 @@ echo a{0..10}b
 ## Basic Reuglar expressiond
 
 ### Example
-```^``` we use for search for the beginning string. 
+```^``` we use for search for the beginning string.
 ```$``` we use for search for the end of the string.
 
 #### More examples
