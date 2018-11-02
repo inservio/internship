@@ -13,3 +13,11 @@ permalink: /categories/
   {% endif %}	 
 {% endfor %}
 </ul>
+
+<ul>
+{% for post in site.categories.proc %}
+  {% if post.url %}
+	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}	 
+{% endfor %}
+</ul>

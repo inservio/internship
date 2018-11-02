@@ -2,7 +2,7 @@
 layout: post
 title:  "Shell Script Programming!"
 date:   2018-09-7 13:31:20 +0200
-categories: test category
+categories: shell scripting
 ---
 
 ## What's the program?
@@ -15,32 +15,33 @@ In other words, when you specify a computer to perform some tasks in a certain o
 The echo command recognizes several special escape characters, which help in formatting the output.
 These are the following characters:
 
-\b - Backspace
+`\b` - Backspace
 
-\c - Ispisuje red bez karaktera za novi red
+`\c` - Ispisuje red bez karaktera za novi red
 
-\f - Form Feed: na stampacu pomjera se za stranicu unaprijed, na ekranu terminala prelazi se na novi ekran.
+`\f` - Form Feed: na stampacu pomjera se za stranicu unaprijed, na ekranu terminala prelazi se na novi ekran.
 
-\n - Newline
+`\n` - Newline
 
-\r - Carriage return
+`\r` - Carriage return
 
-\t - Tab
+`\t` - Tab
 
-\v - Vertikalni tab
+`\v` - Vertikalni tab
 
-\ / - Backslash
+`\` / - Backslash
 
-\ 0nnn - Jednocifreni, dvocifreni, ili trocifreni oktalni cijeli broj koji predstavlja jedan od ASCII karaktera
+`\` 0nnn - Jednocifreni, dvocifreni, ili trocifreni oktalni cijeli broj koji predstavlja jedan od ASCII karaktera
 
 
 #### Example
+
 If we want to prompt the user to enter the data, in which case you want the user's response to appear in the same line as the prompt, use the \ c character.
 
 ``` "Guns N' Roses:\c" ```
 
-
 ## Inserting comments in shell programs
+
 When writing programs, it often happens that you do not have a clear program code that was logical six months ago.
 In order to make our programs easier, we mark comments. We enter the comments in the shell programs by setting a special character (#).
 When a shell interpreter sees a character (#), it considers the whole text as a commentary to the end of the line.
@@ -54,10 +55,10 @@ In the shell, this can be achieved if you use the if-then-else construction.
 
 {% highlight ruby %}
 if [1 -lt 100]
-then
-echo "Correct"
-else
-echo "Not Correct"
+  then
+    echo "Correct"
+  else
+    echo "Not Correct"
 fi
 {% endhighlight ruby %}
 
@@ -82,9 +83,9 @@ Combine the command ls -a -l and display the length of the list.
 
 {% highlight ruby %}
 if ls
-then
-ls -a
-ls -l
+  then
+    ls -a
+    ls -l
 fi
 {% endhighlight ruby %}
 
