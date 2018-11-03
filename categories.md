@@ -7,8 +7,8 @@ permalink: /categories/
 <p>Posts from <strong>common commands</strong> category are:</p>
 
 <ul>
-{% for post in site.categories.test %}
-  {% if post.url %}
+{% for post in site.categories.cc %}
+  {% if post.url 
 	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endif %}	 
 {% endfor %}
@@ -37,7 +37,7 @@ permalink: /categories/
 <p>Posts from <strong>advanced commands</strong> category are:</p>
 
 <ul>
-{% for post in site.categories.advanced commands %}
+{% for post in site.categories.ac %}
   {% if post.url %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endif %}
@@ -47,7 +47,7 @@ permalink: /categories/
 <p>Posts from <strong>shell scripting</strong> category are:</p>
 
 <ul>
-{% for post in site.categories.shell scripting %}
+{% for post in site.categories.ss %}
   {% if post.url %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endif %}
@@ -57,7 +57,7 @@ permalink: /categories/
 <p>Posts from <strong>shell variables</strong> category are:</p>
 
 <ul>
-{% for post in site.categories.shell variables %}
+{% for post in site.categories.sv %}
   {% if post.url %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endif %}
@@ -67,7 +67,7 @@ permalink: /categories/
 <p>Posts from <strong>network commands</strong> category are:</p>
 
 <ul>
-{% for post in site.categories.network commands %}
+{% for post in site.categories.nc %}
   {% if post.url %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endif %}
