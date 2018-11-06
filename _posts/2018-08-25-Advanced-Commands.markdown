@@ -16,13 +16,13 @@ we use when we want to display number of blocks for files and directorys specifi
 
 we use when we want to get the attributes of all, or the specified file systems on the system.
 
-### Command ```df -m```
+Another option for df command ```df -m```
 we use when we want to display the free memory on hard disk in megabytes
 
-### Command ```df -h```
+Another option for df command ```df -h```
 we use when we want to display the free memory on hard disk in gigabytes
 
-### Command ```df -hT /home```
+Another option for df command ```df -hT /home```
 in this example we use the command when we want to display only memory of /home in megabytes and in gigabytes
 
 ### Example for creating a symbolic link
