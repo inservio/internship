@@ -51,7 +51,7 @@ who | grep $1
 We can use it to edit the file using the script.
 In the script we can specify commands of one or more rows, in accordance with the rules that are listed as part of one or more commands.
 
-### Command ```sed -e```
+Another option for sed command ```sed -e```
 We use the sed -e command when we want to print the numbers of rows in which the specified pattern is found.
 
 #### Example 
@@ -67,7 +67,7 @@ We use when we want to sort the specified file according to the specified order.
 sort $1
 {% endhighlight bash %}
 
-### Command ```sort -u```
+Another option for sort command ```sort -u```
 We use when we want to keep only one row, in the case when the result of sorting appears more same rows.
 
 #### Example 
@@ -76,7 +76,7 @@ We use when we want to keep only one row, in the case when the result of sorting
 sort -u $1
 {% endhighlight %}
 
-### Command ```sort -r```
+Another option for sort command ```sort -r```
 We use if we want to sort the file in reverse order.
 
 #### Example 
@@ -84,7 +84,7 @@ We use if we want to sort the file in reverse order.
 sort -r
 {% endhighlight bash %}
 
-### Command ```sort -f```
+Another option for sort command ```sort -f```
 We use when we want to sort the file in the order of capital letters.
 
 #### Example
@@ -92,7 +92,7 @@ We use when we want to sort the file in the order of capital letters.
 sort -f
 {% endhighlight bash %}
 
-### Command ```sort -d```
+Another option for sort command ```sort -d```
 We use it if we want to sort the file in alphabetical order.
 
 #### Example
@@ -108,8 +108,7 @@ We use when we want to eliminate duplicate adjacent rows from a file, or from a 
 uniq $1
 {% endhighlight bash %}
 
-### Command ```uniq -u```
-
+Another option for uniq command ```uniq -u```
 We use when we want to display rows that appear only once in the file.
 
 #### Example
@@ -117,16 +116,16 @@ We use when we want to display rows that appear only once in the file.
 uniq -u $1
 {% endhighlight bash %}
 
-### Command ```uniq -f```
-
+Another option for uniq command ```uniq -f```
 We use when we want to skip rows.
 
 {% highlight bash %}
 uniq -f $1
 {% endhighlight bash %}
 
-### Command ```uniq -d```
+Another option for uniq command ```uniq -d```
 We use when we want to display only duplicate rows.
+
 {% highlight bash %}
 uniq -d $1
 {% endhighlight bash %}
@@ -158,8 +157,7 @@ We use it to search binary files, as well as other commands, source and manual p
 whereis $1
 {% endhighlight bash %}
 
-### Command whereis -m
-
+Another option for whereis command ``` whereis -m```
 We use it to search for manual page of some program.
 
 #### Example
@@ -167,7 +165,7 @@ We use it to search for manual page of some program.
 whereis -m $1
 {% endhighlight bash %} 
 
-### Command ```whereis -b```
+Another option for whereis command ```whereis -b```
 We use it to search for binary files.
 
 {% highlight bash %}
