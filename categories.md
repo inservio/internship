@@ -83,3 +83,13 @@ permalink: /categories/
   {% endif %}
 {% endfor %}
 </ul>
+
+<p>Posts from <strong>nginx</strong> category are:</p>
+
+<ul>
+{% for post in site.categories.nginx %}
+  {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
