@@ -18,7 +18,8 @@ To install nginx we need to log in to our server
 ##### Next step 
 We use the comman ```apt-get update``` just to make sure we have all the latest version of the available package..
 
-Then we use the command ```apt-get install nginx''', or if you are using mac then the replacement form the apt i command ```brew nginx```.
+Then we use the command ```apt-get install nginx```.
+If you are using mac then the replacement for the apt is command ```brew nginx```.
 
 To confirm that nginx is runing we can search for nginx process.
 We use the command ```ps aux | grep nginx```.

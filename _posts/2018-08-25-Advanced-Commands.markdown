@@ -145,7 +145,7 @@ A special shell character, a dot-comma (;), tells the shelf that the text of the
 
 ### Example
 {% highlight bash %}
-find $1; ls #2; pwd $3 
+find $1; ls $2; pwd $3 
 {% endhighlight bash %}
 
 ## Command whereis
