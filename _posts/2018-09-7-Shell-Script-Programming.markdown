@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Shell Script Programming!"
 date:   2018-09-7 13:31:20 +0200
 categories: ss

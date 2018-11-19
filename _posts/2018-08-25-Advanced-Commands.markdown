@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Advanced Commands!"
 date:   2018-10-4 13:31:20 +0200
 categories: ac
@@ -9,10 +9,10 @@ categories: ac
 
 ## Command du and df
 
-### Command ```du``` 
+### Command ```du```
 we use when we want to display number of blocks for files and directorys specified by file and directory arguments.
 
-### Command ```df``` 
+### Command ```df```
 
 we use when we want to get the attributes of all, or the specified file systems on the system.
 
@@ -54,9 +54,9 @@ In the script we can specify commands of one or more rows, in accordance with th
 Another option for sed command ```sed -e```
 We use the sed -e command when we want to print the numbers of rows in which the specified pattern is found.
 
-#### Example 
+#### Example
 {% highlight bash %}
-sed -e "/ls/=" $1 
+sed -e "/ls/=" $1
 {% endhighlight bash %}
 
 ## Commands ```sort```
@@ -70,7 +70,7 @@ sort $1
 Another option for sort command ```sort -u```
 We use when we want to keep only one row, in the case when the result of sorting appears more same rows.
 
-#### Example 
+#### Example
 
 {% highlight bash %}
 sort -u $1
@@ -79,7 +79,7 @@ sort -u $1
 Another option for sort command ```sort -r```
 We use if we want to sort the file in reverse order.
 
-#### Example 
+#### Example
 {% highlight bash %}
 sort -r
 {% endhighlight bash %}
@@ -145,7 +145,7 @@ A special shell character, a dot-comma (;), tells the shelf that the text of the
 
 ### Example
 {% highlight bash %}
-find $1; ls $2; pwd $3 
+find $1; ls $2; pwd $3
 {% endhighlight bash %}
 
 ## Command whereis
@@ -163,7 +163,7 @@ We use it to search for manual page of some program.
 #### Example
 {% highlight bash %}
 whereis -m $1
-{% endhighlight bash %} 
+{% endhighlight bash %}
 
 Another option for whereis command ```whereis -b```
 We use it to search for binary files.

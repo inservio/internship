@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Domain Name System!"
 date:   2018-10-4 13:31:20 +0200
 categories: dns

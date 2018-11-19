@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Command sort"
 categories: Advanced Commands
 date:   2018-10-24 13:31:20 +0200

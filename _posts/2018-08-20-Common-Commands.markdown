@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Common Commands!"
 date:   2018-10-4 13:31:20 +0200
 categories: cc
@@ -13,24 +13,24 @@ We can also combine these commands ```ls -a -l```
 
 With the command ```wc -l``` we get the number of rows in the input.
 
-## Command ```cat``` 
+## Command ```cat```
 takes the characters from the standard input and, as an echo, sends them to the standard output.
 
 ## Commands (cp, mv, rm)
 
 -cp - copy the file
 -mv - move the file
--rm - remove the file 
+-rm - remove the file
 
 #### Example
 
 ```mv ~/Downloads/sound.mp3 ~/Documents/Music```
 
-## Command echo 
+## Command echo
 we use if we want to display the current value of one variable.
 
 Example
-```echo $1``` 
+```echo $1```
 
 ## Command env
 will show the user environment.
@@ -57,7 +57,7 @@ And then with the command ```rmdir``` we use when we want to delete a directory.
 ## Command find
 
 we use when we want to find a file or directory, which has certain characteristics and is located in the specified directory tree.
- 
+
 ### Command fins has other options like:
 
 ```find -type f $1``` we use this command if we want to find only files from the current directory
@@ -66,7 +66,5 @@ we use when we want to find a file or directory, which has certain characteristi
 ## Command touch
 we use when we want to create a file
 
-Example: 
+Example:
 ```touch $1```
-
-

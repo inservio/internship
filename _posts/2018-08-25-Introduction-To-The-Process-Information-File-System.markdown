@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Introduction to the process information file system!"
 date:   2018-08-25 13:31:20 +0200
 categories: proc
