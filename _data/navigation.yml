@@ -1,41 +1,16 @@
-# example navigation
-foo:
-  - title: "Parent Link 1"
-    url: /parent-1-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-
-  - title: "Parent Link 2"
-    url: /parent-2-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-      - title: "Child Link 3"
-        url: /child-3-page-url/
-
-
 # main links links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "Posts"
+    url: /year-archive/
 
   - title: "About"
     url: /about/
 
-  - title: "Sample Posts"
-    url: /year-archive/
-
-  - title: "Sample Collections"
+  - title: "Collections"
     url: /collection-archive/
 
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
-
+  - title: "Categories"
+    url: /categories/
 
 # documentation links
 docs:
