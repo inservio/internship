@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Introduction To The Nginx!"
-date:   2018-10-4 13:31:20 +0200
+date:   2018-10-24 13:31:20 +0200
 categories: nginx
 ---
 
 ## NGINX
 
-NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. 
+NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.
 
 ## Installation and configuration nginx
 
@@ -15,7 +15,7 @@ To install nginx we need to log in to our server
 
 ```ssh root@yourserver.com```
 
-##### Next step 
+##### Next step
 We use the comman ```apt-get update``` just to make sure we have all the latest version of the available package..
 
 Then we use the command ```apt-get install nginx```.
@@ -29,11 +29,11 @@ Use the command ```ifconfig```
 
 ###### Example:
 http://yourserveripadress
-It should display the nginx welcome page. 
+It should display the nginx welcome page.
 
 Path to nginx is: /etc/nginx !
 
-### Building Nginx from source and adding modules 
+### Building Nginx from source and adding modules
 
 Connect to your server root@yourserver.com !
 
@@ -59,18 +59,18 @@ Example main context
 ```
 http{ (for anything http related)
   index index.html index.htm index.php;
-	
+
 server{ (here we define the virtual host)
   listen 80;
   server_name mydomain.com;
   access_log /var/www/mydomain/web/access.log;
-  error_log /var/www/mydomain/web/error.log;	
+  error_log /var/www/mydomain/web/error.log;
   root /var/
-	
+
 location{ (for matching url locations on incoming request to the parents server context)
-  my_location;	
+  my_location;
     }
-  
+
 
   }
 }
@@ -78,4 +78,3 @@ location{ (for matching url locations on incoming request to the parents server 
 ##### Tip
 When we modifie any .conf file we have to use command ```service nginx reload```
 And to chech if syntax is ok we use the command ```nginx -t```
-
