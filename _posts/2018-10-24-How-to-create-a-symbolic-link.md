@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating symbolic link
+title: "Creating symbolic link"
 parent: Advanced Commands
 date:   2018-10-24 13:31:20 +0200
 ---
