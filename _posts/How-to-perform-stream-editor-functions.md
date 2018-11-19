@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Command sed
 parent: Advanced Commands
 nav_order: 5
@@ -18,4 +18,3 @@ We use the sed -e command when we want to print the numbers of rows in which the
 {% highlight bash %}
 sed -e "/ls/=" $1
 {% endhighlight bash %}
-

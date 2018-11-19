@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Linking multiple commands
 parent: Advanced Commands
 nav_order: 4

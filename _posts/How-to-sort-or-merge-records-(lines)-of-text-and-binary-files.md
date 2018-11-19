@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Command sort
 parent: Advanced Commands
 nav_order: 6

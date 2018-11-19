@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Creating symbolic link
 parent: Advanced Commands
 nav_order: 3
