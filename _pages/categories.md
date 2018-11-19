@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Categories
 permalink: /categories/
 ---
@@ -8,7 +8,7 @@ permalink: /categories/
 
 <ul>
 {% for post in site.categories.cc %}
-  {% if post.url %} 
+  {% if post.url %}
 	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endif %}	 
 {% endfor %}
