@@ -2,7 +2,7 @@
 layout: post
 title: Command sed
 parent: Advanced Commands
-nav_order: 5
+date:   2018-10-4 13:31:20 +0200
 ---
 
 ## Command ```sed```

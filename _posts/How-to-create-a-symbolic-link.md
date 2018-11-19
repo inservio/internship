@@ -2,7 +2,7 @@
 layout: post
 title: Creating symbolic link
 parent: Advanced Commands
-nav_order: 3
+date:   2018-10-4 13:31:20 +0200
 ---
 
 ### Example for creating a symbolic link

@@ -2,7 +2,7 @@
 layout: post
 title: Command sort
 parent: Advanced Commands
-nav_order: 6
+date:   2018-10-4 13:31:20 +0200
 ---
 
 ## Commands ```sort```

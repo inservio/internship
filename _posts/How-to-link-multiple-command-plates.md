@@ -2,7 +2,7 @@
 layout: post
 title: Linking multiple commands
 parent: Advanced Commands
-nav_order: 4
+date:   2018-10-4 13:31:20 +0200
 ---
 
 Linking multiple commands is achieved by using the symbol pipe, | .
