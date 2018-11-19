@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Command df
-parent: Advanced Commands
+title: "Command df"
+categories: Advanced Commands
 date:   2018-10-24 13:31:20 +0200
 ---
 
