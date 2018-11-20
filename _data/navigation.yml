@@ -6,8 +6,8 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "Collections"
-    url: /collection-archive/
+  - title: "Documentation"
+    url: /docs/quick-start-guide/
 
   - title: "Categories"
     url: /categories/
