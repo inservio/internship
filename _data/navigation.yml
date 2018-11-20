@@ -1,31 +1,41 @@
 # main links links
 main:
-  - title: "Posts"
-    url: /year-archive/
+  - title: "Documentation"
+    url: /docs/documentation/
 
   - title: "About"
     url: /about/
 
-  - title: "Documentation"
-    url: /docs/quick-start-guide/
+  - title: "Sample Posts"
+    url: /year-archive/
 
-  - title: "Categories"
-    url: /categories/
+  - title: "Sample Collections"
+    url: /collection-archive/
 
 # documentation links
 docs:
-  - title: Getting Started
+  - title: Linux
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      - title: "Creating symbolic link"
+        url: /docs/linux/how-to-create-a-symbolic-link/
+      - title: "how-to-display-disk-usage-statistics"
+        url: /docs/how-to-display-disk-usage-statistics
+      - title: "how-to-display-free-disk-space"
+        url: /docs/how-to-display-free-disk-space
+      - title: "how-to-enter-multiple-commands-in-one-row"
+        url: /docs/how-to-enter-multiple-commands-in-one-row
+      - title: "how-to-locate-programs"
+        url: /docs/linux/how-to-locate-programs/
+      - title: "how-to-perform-stream-editor-functions"
+        url: /docs/how-to-perform-stream-editor-functions
+      - title: "how-to-process-commands-in-the-backgroud"
+        url: /docs/how-to-process-commands-in-the-backgroud
+      - title: "how-to-report-or-filter-out-repeated-lines-in-a-file"
+        url: /docs/how-to-report-or-filter-out-repeated-lines-in-a-file/
+      - title: "how-to-sort-or-merge-records-of-text-and-binary-files"
+        url: /docs/how-to-sort-or-merge-records-of-text-and-binary-files
 
-  - title: Customization
+  - title: NginX
     children:
       - title: "Configuration"
         url: /docs/configuration/
