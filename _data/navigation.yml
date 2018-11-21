@@ -47,7 +47,7 @@ docs:
         url: /docs/authors/
       - title: "Layouts"
         url: /docs/layouts/
-
+ 
   - title: Content
     children:
       - title: "Working with Posts"
