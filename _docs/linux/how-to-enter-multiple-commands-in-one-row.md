@@ -2,8 +2,11 @@
 layout: single
 title:  Entering multiple commands in one row
 parent: Linux
-permalink: /docs/how-to-enter-multiple-commands-in-one-row
+permalink: /docs/linux/how-to-enter-multiple-commands-in-one-row/
 ---
+
+{% include base_path %}
+
 
 ## Enter multiple commands in one row
 Usually, shell interprets the first word from the command input as the command name, and the rest of the input as an argument for that command.

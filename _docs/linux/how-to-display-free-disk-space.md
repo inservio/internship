@@ -2,9 +2,9 @@
 layout: single
 title: Command df
 parent: Linux
-permalink: /docs/how-to-display-free-disk-space
+permalink: /docs/linux/how-to-display-free-disk-space/
 ---
-
+{% include base_path %}
 
 ### Command ```df```
 

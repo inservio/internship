@@ -2,8 +2,11 @@
 layout: single
 title:  Entering the commands that are processed in the background
 parent: Linux
-permalink: /docs/how-to-process-commands-in-the-backgroud
+permalink: /docs/linux/how-to-process-commands-in-the-backgroud/
 ---
+
+{% include base_path %}
+
 
 ## Entering the commands that are processed in the background
 

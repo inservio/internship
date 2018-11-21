@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: single
 title: How to configurate nginx
 parent: Nginx
-nav_order: 3
+permalink: /docs/nginx/how-to-configurate-nginx/
 ---
 
+{% include base_path %}
 
 
 ### Configuration Nginx

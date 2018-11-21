@@ -1,9 +1,12 @@
 ---
-layout: default
+layout: single
 title: How to install nginx
 parent: Nginx
-nav_order: 1
+permalink: /docs/nginx/how-to-install-nginx/
 ---
+
+{% include base_path %}
+
 
 ## NGINX
 

@@ -2,8 +2,11 @@
 layout: single
 title: Command uniq
 parent: Linux
-permalink: /docs/how-to-report-or-filter-out-repeated-lines-in-a-file
+permalink: /docs/linux/how-to-report-or-filter-out-repeated-lines-in-a-file/
 ---
+
+{% include base_path %}
+
 
 ## Command ```uniq```
 We use when we want to eliminate duplicate adjacent rows from a file, or from a standard input, in order to generate a standard output, or another file.

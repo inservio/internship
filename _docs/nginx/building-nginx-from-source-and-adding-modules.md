@@ -1,9 +1,12 @@
 ---
-layout: default
+layout: single
 title: Building Nginx from source and adding modules
 parent: Nginx
-nav_order: 2
+permalink: /docs/nginx/building-nginx-from-source-and-adding-modules/
 ---
+
+{% include base_path %}
+
 
 ### Building Nginx from source and adding modules
 

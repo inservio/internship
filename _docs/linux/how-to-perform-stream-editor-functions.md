@@ -2,8 +2,11 @@
 layout: single
 title: Command sed
 parent: Linux
-permalink: /docs/how-to-perform-stream-editor-functions
+permalink: /docs/linux/how-to-perform-stream-editor-functions/
 ---
+
+{% include base_path %}
+
 
 ## Command ```sed```
 SED is a powerful text stream editor.

@@ -2,8 +2,11 @@
 layout: single
 title: Command sort
 parent: Linux
-permalink: /docs/how-to-sort-or-merge-records-of-text-and-binary-files
+permalink: /docs/linux/how-to-sort-or-merge-records-of-text-and-binary-files/
 ---
+
+{% include base_path %}
+
 
 ## Commands ```sort```
 We use when we want to sort the specified file according to the specified order.

@@ -2,8 +2,11 @@
 layout: single
 title:  Command whereis
 parent: Linux
-permalink: /docs/how-to-locate-programs
+permalink: /docs/linux/how-to-locate-programs
 ---
+
+{% include base_path %}
+
 
 ## Command whereis
 
