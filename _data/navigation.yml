@@ -14,45 +14,45 @@ main:
 
 # documentation links
 docs:
-  -- title: Linux
+  - title: Linux
     children:
-      - title: "Creating symbolic link"
+        title: "Creating symbolic link"
         url: /docs/linux/how-to-create-a-symbolic-link/
-      - title: "How to display disk usage statistics"
+        title: "How to display disk usage statistics"
         url: /docs/linux/how-to-display-disk-usage-statistics/
-      - title: "How to display free disk space"
+        title: "How to display free disk space"
         url: /docs/linux/how-to-display-free-disk-space/
-      - title: "How to enter multiple commands in one row"
+        title: "How to enter multiple commands in one row"
         url: /docs/linux/how-to-enter-multiple-commands-in-one-row/
-      - title: "How to locate programs"
+        title: "How to locate programs"
         url: /docs/linux/how-to-locate-programs/
-      - title: "How to perform stream editor functions"
+        title: "How to perform stream editor functions"
         url: /docs/linux/how-to-perform-stream-editor-functions/
-      - title: "How to process commands in the backgroud"
+        title: "How to process commands in the backgroud"
         url: /docs/linux/how-to-process-commands-in-the-backgroud/
-      - title: "How to report or filter out repeated lines in a file"
+        title: "How to report or filter out repeated lines in a file"
         url: /docs/linux/how-to-report-or-filter-out-repeated-lines-in-a-file/
-      - title: "How to sort or merge records of text and binary files"
+        title: "How to sort or merge records of text and binary files"
         url: /docs/linux/how-to-sort-or-merge-records-of-text-and-binary-files/
  
- -- title: Nginx
+ - title: Nginx
     children:
-      - title: "How to install nginx"
-      	url: /docs/nginx/how-to-install-nginx/
-      - title: "How to configurate nginx"
-      	url: /docs/nginx/how-to-configurate-nginx/
-      -	title: "Building Nginx from source and adding modules"
-	url: /docs/nginx/building-nginx-from-source-and-adding-modules/
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+       title: "How to install nginx"
+       url: /docs/nginx/how-to-install-nginx/
+       title: "How to configurate nginx"
+       url: /docs/nginx/how-to-configurate-nginx/
+       title: "Building Nginx from source and adding modules"
+       url: /docs/nginx/building-nginx-from-source-and-adding-modules/
+       title: "Configuration"
+       url: /docs/configuration/
+       title: "Navigation"
+       url: /docs/navigation/
+       title: "UI Text"
+       url: /docs/ui-text/
+       title: "Authors"
+       url: /docs/authors/
+       title: "Layouts"
+       url: /docs/layouts/
 
   - title: Content
     children:
