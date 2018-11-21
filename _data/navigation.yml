@@ -37,12 +37,6 @@ docs:
  
   - title: Nginx
     children:
-      - title: "How to install nginx"
-        url: /docs/nginx/how-to-install-nginx/
-      - title: "How to configurate nginx"
-        url: /docs/nginx/how-to-configurate-nginx/
-      - title: "Building Nginx from source and adding modules"
-        url: /docs/nginx/building-nginx-from-source-and-adding-modules/
       - title: "Configuration"
         url: /docs/configuration/
       - title: "Navigation"
