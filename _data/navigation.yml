@@ -37,17 +37,13 @@ docs:
  
   - title: Nginx
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
- 
+      - title: "How to install nginx"
+        url: /docs/nginx/how-to-install-nginx/
+      - title: "How to configurate nginx"
+        url: /docs/nginx/how-to-configurate-nginx/
+      - title: "Building Nginx from source and adding modules"
+        url: /docs/nginx/building-nginx-from-source-and-adding-modules/
+
   - title: Content
     children:
       - title: "Working with Posts"
