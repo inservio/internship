@@ -18,25 +18,31 @@ docs:
     children:
       - title: "Creating symbolic link"
         url: /docs/linux/how-to-create-a-symbolic-link/
-      - title: "how-to-display-disk-usage-statistics"
-        url: /docs/how-to-display-disk-usage-statistics
-      - title: "how-to-display-free-disk-space"
-        url: /docs/how-to-display-free-disk-space
-      - title: "how-to-enter-multiple-commands-in-one-row"
-        url: /docs/how-to-enter-multiple-commands-in-one-row
-      - title: "how-to-locate-programs"
+      - title: "How to display disk usage statistics"
+        url: /docs/linux/how-to-display-disk-usage-statistics/
+      - title: "How to display free disk space"
+        url: /docs/linux/how-to-display-free-disk-space/
+      - title: "How to enter multiple commands in one row"
+        url: /docs/linux/how-to-enter-multiple-commands-in-one-row/
+      - title: "How to locate programs"
         url: /docs/linux/how-to-locate-programs/
-      - title: "how-to-perform-stream-editor-functions"
-        url: /docs/how-to-perform-stream-editor-functions
-      - title: "how-to-process-commands-in-the-backgroud"
-        url: /docs/how-to-process-commands-in-the-backgroud
-      - title: "how-to-report-or-filter-out-repeated-lines-in-a-file"
-        url: /docs/how-to-report-or-filter-out-repeated-lines-in-a-file/
-      - title: "how-to-sort-or-merge-records-of-text-and-binary-files"
-        url: /docs/how-to-sort-or-merge-records-of-text-and-binary-files
+      - title: "How to perform stream editor functions"
+        url: /docs/linux/how-to-perform-stream-editor-functions/
+      - title: "How to process commands in the backgroud"
+        url: /docs/linux/how-to-process-commands-in-the-backgroud/
+      - title: "How to report or filter out repeated lines in a file"
+        url: /docs/linux/how-to-report-or-filter-out-repeated-lines-in-a-file/
+      - title: "How to sort or merge records of text and binary files"
+        url: /docs/linux/how-to-sort-or-merge-records-of-text-and-binary-files/
 
   - title: NginX
     children:
+      - title: "How to install nginx"
+      	url: /docs/nginx/how-to-install-nginx/
+      - title: "How to configurate nginx"
+      	url: /docs/nginx/how-to-configurate-nginx/
+      -	title: "Building Nginx from source and adding modules"
+	url: /docs/nginx/building-nginx-from-source-and-adding-modules/
       - title: "Configuration"
         url: /docs/configuration/
       - title: "Navigation"
