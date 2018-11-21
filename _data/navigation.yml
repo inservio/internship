@@ -35,8 +35,8 @@ docs:
       - title: "How to sort or merge records of text and binary files"
         url: /docs/linux/how-to-sort-or-merge-records-of-text-and-binary-files/
  
- - title: Nginx
-   children:
+  - title: Nginx
+    children:
       - title: "How to install nginx"
         url: /docs/nginx/how-to-install-nginx/
       - title: "How to configurate nginx"
