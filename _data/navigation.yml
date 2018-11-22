@@ -34,28 +34,33 @@ docs:
         url: /docs/linux/how-to-report-or-filter-out-repeated-lines-in-a-file/
       - title: "How to sort or merge records of text and binary files"
         url: /docs/linux/how-to-sort-or-merge-records-of-text-and-binary-files/
+      
+
+
+  - title: Network
+    children:
       - title: "What is DNS"
-        url: /docs/linux/what-is-dns/
+        url: /docs/network/what-is-dns/
       - title: "List of DNS record types"
-        url: /docs/linux/list-of-dns-record-types/
+        url: /docs/network/list-of-dns-record-types/
       - title: "Querying DNS name servers"
-        url: /docs/linux/querying-dns-name-servers/
+        url: /docs/network/querying-dns-name-servers/
       - title: "How to performe valid dns query"
-        url: /docs/linux/how-to-performe-valid-dns-query/
+        url: /docs/network/how-to-performe-valid-dns-query/
       - title: "Network address translation"
-        url: /docs/linux/network-address-translation/
+        url: /docs/network/network-address-translation/
       - title: "How to show network status"
-        url: /docs/linux/how-to-show-network-status/
+        url: /docs/network/how-to-show-network-status/
       - title: "How to send icmp echo request packets to network hosts"
-        url: /docs/linux/how-to-send-icmp-echo-request-packets-to-network-hosts/
+        url: /docs/network/how-to-send-icmp-echo-request-packets-to-network-hosts/
       - title: "How to query internet name servers interactively"
-        url: /docs/linux/how-to-query-internet-name-servers-interactively/
+        url: /docs/network/how-to-query-internet-name-servers-interactively/
       - title: "How to print the route packets take to network host"
-        url: /docs/linux/how-to-print-the-route-packets-take-to-network-host/
+        url: /docs/network/how-to-print-the-route-packets-take-to-network-host/
       - title: "DNS lookup utility"
-        url: /docs/linux/dns-lookup-utility/
+        url: /docs/network/dns-lookup-utility/
       - title: "How to configure network interface parameters"
-        url: /docs/linux/how-to-configure-network-interface-parameters/
+        url: /docs/network/how-to-configure-network-interface-parameters/
   
   - title: Nginx
     children:
