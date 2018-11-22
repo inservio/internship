@@ -1,6 +1,6 @@
 ---
 layout: single
-title: querying-dns-name-servers
+title: Querying DNS name servers
 parent: Linux
 permalink: /docs/linux/querying-dns-name-servers/
 ---

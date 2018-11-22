@@ -7,7 +7,6 @@ permalink: /docs/linux/what-is-dns/
 
 {% include base_path %}
 
-# Domain Name System (DNS)
 ## What is DNS?
 
 The Domain Name System (DNS) is the phonebook of the Internet.
