@@ -35,8 +35,6 @@ docs:
       - title: "How to sort or merge records of text and binary files"
         url: /docs/linux/how-to-sort-or-merge-records-of-text-and-binary-files/
       
-
-
   - title: Network
     children:
       - title: "What is DNS"
@@ -70,6 +68,15 @@ docs:
         url: /docs/nginx/how-to-configurate-nginx/
       - title: "Building Nginx from source and adding modules"
         url: /docs/nginx/building-nginx-from-source-and-adding-modules/
+
+  - title: Shell
+    children:
+      - title: "Position variables or shell arguments"
+        url: /docs/shell/position-variables-or-shell-arguments/
+      - title: "Prevent changing the variable"
+        url: /docs/shell/how-to-prevent-variable-from-changing/
+      - title: "Subshells and export command"
+        url: /docs/shell/subshells-and-export-command/
 
   - title: Content
     children:
