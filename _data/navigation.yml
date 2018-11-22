@@ -77,7 +77,17 @@ docs:
         url: /docs/shell/how-to-prevent-variable-from-changing/
       - title: "Subshells and export command"
         url: /docs/shell/subshells-and-export-command/
-
+      - title: "Shell script programming"
+        url: /docs/shell/introduction-to-shell-script-programming/
+      - title: "How to prevent variables from changing"
+        url: /docs/shell/how-to-prevent-variable-from-changing/
+      - title: "If then else commands"
+        url: /docs/shell/if-then-else-command/
+      - title: "Making decisions in shell programs"
+        url: /docs/shell/making-decisions-in-shell-programs/
+      - title: "Perform arithmetic operations over shell variables"
+        url: /docs/shell/how-to-perform-arithmetic-operations-over-shell-variables/
+ 
   - title: Content
     children:
       - title: "Working with Posts"
