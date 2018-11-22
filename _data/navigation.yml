@@ -34,7 +34,15 @@ docs:
         url: /docs/linux/how-to-report-or-filter-out-repeated-lines-in-a-file/
       - title: "How to sort or merge records of text and binary files"
         url: /docs/linux/how-to-sort-or-merge-records-of-text-and-binary-files/
- 
+      - title: "What is DNS"
+      - url: /docs/linux/what-is-dns/
+      - title: "List of DNS record types"
+      - url: /docs/linux/list-of-dns-record-types/
+      - title: "Querying DNS name servers"
+      - url: /docs/linux/querying-dns-name-servers/
+      - title: "How to performe valid dns query"
+      - url: /docs/linux/how-to-performe-valid-dns-query/
+  
   - title: Nginx
     children:
       - title: "How to install nginx"
