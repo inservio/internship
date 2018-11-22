@@ -42,6 +42,20 @@ docs:
         url: /docs/linux/querying-dns-name-servers/
       - title: "How to performe valid dns query"
         url: /docs/linux/how-to-performe-valid-dns-query/
+      - title: "Network address translation"
+        url: /docs/linux/network-address-translation/
+      - title: "How to show network status"
+        url: /docs/linux/how-to-show-network-status/
+      - title: "How to send icmp echo request packets to network hosts"
+        url: /docs/linux/how-to-send-icmp-echo-request-packets-to-network-hosts/
+      - title: "How to query internet name servers interactively"
+        url: /docs/linux/how-to-query-internet-name-servers-interactively/
+      - title: "How to print the route packets take to network host"
+        url: /docs/linux/how-to-print-the-route-packets-take-to-network-host/
+      - title: "DNS lookup utility"
+        url: /docs/linux/dns-lookup-utility/
+      - title: "How to configure network interface parameters"
+        url: /docs/linux/how-to-configure-network-interface-parameters/
   
   - title: Nginx
     children:
