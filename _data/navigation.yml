@@ -124,6 +124,14 @@ docs:
         url: /docs/proc/how-to-list-of-partitions/
       - title: "How to display the system running time"
         url: /docs/proc/how-to-display-the-system-running-time/
+  - title: Regular Expression
+    children: 
+      - title: "Interval regular expressions"
+        url: /docs/network/interval-regular-expressions/
+      - title: "Brace expansion"
+        url: /docs/network/brace-expansion/
+      - title: "Basic regular expressions"
+        url: /docs/network/basic-regular-expressions/
 
   - title: Content
     children:
