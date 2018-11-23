@@ -3,6 +3,7 @@ layout: single
 title:  Entering the commands that are processed in the background
 parent: Linux
 permalink: /docs/linux/how-to-process-commands-in-the-backgroud/
+toc: true
 ---
 
 {% include base_path %}

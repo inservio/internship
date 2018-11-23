@@ -3,6 +3,7 @@ layout: single
 title: Command sed
 parent: Linux
 permalink: /docs/linux/how-to-perform-stream-editor-functions/
+toc: true
 ---
 
 {% include base_path %}

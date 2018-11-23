@@ -3,6 +3,7 @@ layout: single
 title: Linking multiple commands
 parent: Linux
 permalink: /docs/linux/how-to-link-multiple-command-plates/
+toc: true
 ---
 
 {% include base_path %}

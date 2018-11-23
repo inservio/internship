@@ -3,6 +3,7 @@ layout: single
 title: Creating symbolic link
 parent: Linux
 permalink: /docs/linux/how-to-create-a-symbolic-link/
+toc: true
 ---
 
 {% include base_path %}

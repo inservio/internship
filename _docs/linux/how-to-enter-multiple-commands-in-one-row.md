@@ -3,6 +3,7 @@ layout: single
 title:  Entering multiple commands in one row
 parent: Linux
 permalink: /docs/linux/how-to-enter-multiple-commands-in-one-row/
+toc: true
 ---
 
 {% include base_path %}

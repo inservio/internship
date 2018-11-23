@@ -3,6 +3,7 @@ layout: single
 title: Command du
 parent: Linux
 permalink: /docs/linux/how-to-display-disk-usage-statistics/
+toc: true
 ---
 
 {% include base_path %}
@@ -23,6 +24,5 @@ If we want to get the summary of a grand total disk usage size of an directory w
 #### Command ```du -a```
 To display the disk usage of all the files and directories we have to use the command ```du -a /Downloads/ViberDownloads```
 
-#### Command 
-To display disk usage of all the file and direcotires in human readeable format we have to use the command ```du -ah /Downloads/ViberDownloads``` 
-
+#### Command
+To display disk usage of all the file and direcotires in human readeable format we have to use the command ```du -ah /Downloads/ViberDownloads```

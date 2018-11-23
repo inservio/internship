@@ -3,6 +3,7 @@ layout: single
 title: Command df
 parent: Linux
 permalink: /docs/linux/how-to-display-free-disk-space/
+toc: true
 ---
 {% include base_path %}
 

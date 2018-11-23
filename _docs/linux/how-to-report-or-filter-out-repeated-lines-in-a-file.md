@@ -3,6 +3,7 @@ layout: single
 title: Command uniq
 parent: Linux
 permalink: /docs/linux/how-to-report-or-filter-out-repeated-lines-in-a-file/
+toc: true
 ---
 
 {% include base_path %}

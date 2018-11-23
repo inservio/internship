@@ -3,6 +3,7 @@ layout: single
 title:  Command whereis
 parent: Linux
 permalink: /docs/linux/how-to-locate-programs/
+toc: true
 ---
 
 {% include base_path %}

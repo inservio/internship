@@ -3,6 +3,7 @@ layout: single
 title: Command sort
 parent: Linux
 permalink: /docs/linux/how-to-sort-or-merge-records-of-text-and-binary-files/
+toc: true
 ---
 
 {% include base_path %}
