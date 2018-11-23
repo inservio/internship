@@ -88,6 +88,25 @@ docs:
       - title: "Perform arithmetic operations over shell variables"
         url: /docs/shell/how-to-perform-arithmetic-operations-over-shell-variables/
  
+  - title: Proc
+    children:
+      - title: "Introduction to the process information file system"
+        url: /docs/proc/overview-of-process-information/
+      - title: "How to display free memory"
+        url: /docs/proc/how-to-display-free-memory/
+      - title: "How to display information about ram memory"
+        url: /docs/proc/how-to-display-information-about-ram-memory/
+      - title: "How to display information about cpu"
+        url: /docs/proc/how-to-display-information-about-cpu/
+      - title: "How to display which kernel is booting"
+        url: /docs/proc/how-to-display-which-kernel-is-booting/
+      - title: "How to find out kernel version"
+        url: /docs/proc/how-to-find-out-kernel-version/
+      - title: "How to display list of partitions"
+        url: /docs/proc/how-to-list-of-partitions/
+      - title "How to display the system running time"
+        url: /docs/proc/how-to-display-the-system-running-time/
+
   - title: Content
     children:
       - title: "Working with Posts"
