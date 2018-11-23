@@ -34,7 +34,25 @@ docs:
         url: /docs/linux/how-to-report-or-filter-out-repeated-lines-in-a-file/
       - title: "How to sort or merge records of text and binary files"
         url: /docs/linux/how-to-sort-or-merge-records-of-text-and-binary-files/
-      
+      - title: "How to list directory contents"
+        url: /docs/linux/how-to-list-directory-contents/
+      - title: "How to concatenate and print files"
+        url: /docs/linux/how-to-concatenate-and-print-files/
+      - title: "How to write arguments to the standard output"
+        url: /docs/linux/how-to-write-arguments-to-the-standard-output/
+      - title: "Manipulating files"
+        url: /docs/linux/manipulating-files/
+      - title: "How to print environment"
+        url: /docs/linux/how-to-print-environment/
+      - title: "Escaping characters"
+        url: /docs/linux/escaping-characters/
+      - title: "Creating and removing directory"
+        url: /docs/linux/how-to-create-dir-and-remove-dir/
+      - title: "Command find"
+        url: /docs/linux/how-to-use-command-find/
+      - title: "How to create a file"
+        url: /docs/linux/how-to-create-a-file/
+
   - title: Network
     children:
       - title: "What is DNS"
@@ -59,7 +77,7 @@ docs:
         url: /docs/network/dns-lookup-utility/
       - title: "How to configure network interface parameters"
         url: /docs/network/how-to-configure-network-interface-parameters/
-  
+
   - title: Nginx
     children:
       - title: "How to install nginx"
@@ -87,7 +105,7 @@ docs:
         url: /docs/shell/making-decisions-in-shell-programs/
       - title: "Perform arithmetic operations over shell variables"
         url: /docs/shell/how-to-perform-arithmetic-operations-over-shell-variables/
- 
+
   - title: Proc
     children:
       - title: "Introduction to the process information file system"
