@@ -104,7 +104,7 @@ docs:
         url: /docs/proc/how-to-find-out-kernel-version/
       - title: "How to display list of partitions"
         url: /docs/proc/how-to-list-of-partitions/
-      - title "How to display the system running time"
+      - title: "How to display the system running time"
         url: /docs/proc/how-to-display-the-system-running-time/
 
   - title: Content
