@@ -3,7 +3,7 @@ layout: default
 title: Network
 nav_order: 3
 has_children: true
-permalink: /docs/network
+permalink: /docs/network.html
 ---
 
 # UI Components
