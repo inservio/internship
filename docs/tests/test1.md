@@ -2,7 +2,7 @@
 layout: default
 title: Test1
 parent: Tests
-permalink: /docs/tests/test1
+permalink: /docs/tests/test1/
 ---
 
 
