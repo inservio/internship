@@ -12,7 +12,7 @@ permalink: /docs/tests/test1/
 1. Sta je znaci akronim odnosno komanda
 
 ````
-cd?
+cd
 ````
 
 
@@ -524,7 +524,7 @@ cat ime_prezime
   A. ````esc ZZ````  
   B. ````ctrl :w!````
   C. ````esc zz````  
-  D. ````esc :wq!```` 
+  D. ````esc :wq!````
   E. ````ctrl XX````  
 
 
