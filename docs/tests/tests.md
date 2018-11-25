@@ -7,3 +7,5 @@ permalink: /docs/tests/
 ---
 
 # TESTS
+
+{:toc}

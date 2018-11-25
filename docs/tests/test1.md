@@ -5,7 +5,7 @@ parent: Tests
 permalink: /docs/tests/test1/
 ---
 
-
+{:toc}
 
 # Pitanja
 

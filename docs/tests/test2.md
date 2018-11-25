@@ -7,6 +7,8 @@ permalink: /docs/tests/test2/
 
 # Test 2
 
+{:toc}
+
 1. Ako uzmemo u obzir da je username trenutno logovanog korisnika tux, koja je apsulutna putanja sljedece relativne putanje ~/.ssh/. ?
 
 2. Sadrzaj kojeg direktorija ce biti prikazan nakon izvrsenja komande?

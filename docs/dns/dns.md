@@ -7,3 +7,5 @@ permalink: /docs/dns.html
 ---
 
 # DNS
+
+{:toc}
