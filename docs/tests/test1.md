@@ -485,7 +485,7 @@ cat ime_prezime
 
 
 
-100. Kako se zove proces sa ````PID```` ````*1````*?
+100. Kako se zove proces sa ````PID-om```` ````1````?
 
 
 
@@ -522,9 +522,9 @@ cat ime_prezime
 
 108. Editujete text dokument u ````vi```` editoru. Potrebnoje snimiti izmjene i napustiti edutor. Koje DVIJE ulazne sekvence ce postici zeljeni rezultat? Zaokruziti.  
   A. ````esc ZZ````  
-  B. ````ctrl :w!````````  
+  B. ````ctrl :w!````
   C. ````esc zz````  
-  D. ````esc :wq!````````  
+  D. ````esc :wq!```` 
   E. ````ctrl XX````  
 
 
