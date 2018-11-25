@@ -8,7 +8,9 @@ permalink: /docs/dns/how-to-performe-valid-dns-query/
 #### Query Address record with dig command
 If we want to display A records use the command dig A.
 
-```dig google.com A```
+```
+dig google.com A
+```
 
 #### Another option is
 {% highlight bash %}
@@ -17,9 +19,12 @@ dig A google.com +short
 
 
 #### Query Mail exchange record with dig command
+
 If we want to display MX records use the command dig MX.
 
-```dig google.com MX```
+```
+dig google.com MX
+```
 
 #### Another option is
 {% highlight bash %}
