@@ -9,7 +9,11 @@ permalink: /docs/tests/test2/
 
 {:toc}
 
-1. Ako uzmemo u obzir da je username trenutno logovanog korisnika tux, koja je apsulutna putanja sljedece relativne putanje ~/.ssh/. ?
+1. Ako uzmemo u obzir da je username trenutno logovanog korisnika tux, koja je apsulutna putanja sljedece relativne putanje?
+
+````
+~/.ssh/.
+````
 
 2. Sadrzaj kojeg direktorija ce biti prikazan nakon izvrsenja komande?
 
@@ -40,7 +44,11 @@ ls /./././
 cat /etc/passwd | grep ':0:'
 ````
 
-8. Opisati komandu ````ls ~/. | sort -R````
+8. Opisati komandu
+
+````
+ls ~/. | sort -R
+````
 
 9. Napisati apsolutnu putanju direktorija koji ce postati current directory nakon izvrsenja komande u nastavku.
 
@@ -52,17 +60,37 @@ web7@server:~$ cd /home/$USER
 
 11. Zasto se portovi dijele u privilegovane i u neprivilegovane?
 
-12. Koji je rezultat sljedece komande ````tail -n 100 /dev/null````
+12. Koji je rezultat sljedece komande
 
-13. Koji je rezultat sljedece komande ````head -n 100 /dev/null````
+````
+tail -n 100 /dev/null
+````
 
-14. Sta predstavlja znak | u komandi ````grep 'MemFree\|MemTotal'````
+13. Koji je rezultat sljedece komande
 
-15. Sta predstavlja direktorij /proc ?
+````
+head -n 100 /dev/null
+````
 
-16. Koji numericki ID ce biti rezultat sljedece komande ````cat /proc/1/status | grep -w 'Pid'```` ?
+14. Sta predstavlja znak | u komandi
 
-17. Koje informacije nam daje komanda ````uname -a```` ?
+````
+grep 'MemFree\|MemTotal'
+````
+
+15. Sta predstavlja direktorij `/proc` ?
+
+16. Koji numericki ID ce biti rezultat sljedece komande ?
+
+````
+cat /proc/1/status | grep -w 'Pid'
+````
+
+17. Koje informacije nam daje komanda ?
+
+````
+uname -a
+````
 
 18. Sta oznacuje ````/dev/sda```` a sta ````/dev/sda1```` te koja je njihova povezanost ?
 
@@ -70,17 +98,17 @@ web7@server:~$ cd /home/$USER
 
 20. Napisati apsolutnu putanju fajla kojeg ce napraviti komanda touch /.test
 
-21. Da li ce nekoliko puta ponovljena komanda curl 'http://google.com:80/fajl.pdf' >> fajl.pdf rezultirati validnim fajlom? Objasniti.
+21. Da li ce nekoliko puta ponovljena komanda ````curl 'http://google.com:80/fajl.pdf' >> fajl.pdf```` rezultirati validnim fajlom? Objasniti.
 
 22. U kojem konfiguracijskom fajlu je podesen hostname?
 
 23. U kojem konfiguracijskom fajlu je podesena IP adresa za hostname?
 
-24. Koje su prednosti i mane RAID0?
+24. Koje su prednosti i mane ````RAID0````?
 
-25. Komandu ls ~/../. napisite u verziji koristeci apsolutnu putanju, trenutno logovani korisnik je neprivilegovani korisnik.
+25. Komandu ````ls ~/../.```` napisite u verziji koristeci apsolutnu putanju, trenutno logovani korisnik je neprivilegovani korisnik.
 
-26. U slucaju da je trenutno prijavljeni korinik root, koja je apsulutna putanja u slucaju ls ~/../ komande
+26. U slucaju da je trenutno prijavljeni korinik root, koja je apsulutna putanja u slucaju ````ls ~/../```` komande
 
 
 27. Sta se desava sa fajlom imena source nakon ispod izvrsenih komandi?
@@ -100,13 +128,17 @@ exit
 whoami
 ````
 
-29. Koji je rezultat komande ls . | tail -n 0 | wc -l > ls ?
+29. Koji je rezultat komande
 
-30. Objasniti sljedecu komandu cat /proc/cpuinfo | grep -w 'processor' | wc -l
+````
+ls . | tail -n 0 | wc -l > ls
+````
+
+30. Objasniti sljedecu komandu ````cat /proc/cpuinfo | grep -w 'processor' | wc -l````
 
 31. Koja je razlika izmedju simbolickih i hard linkova?
 
-32. Koja je svrha komande mount -l ?
+32. Koja je svrha komande ````mount -l```` ?
 
 33. Koji ce biti sadrzaj i velicina u Bajtima datoteke dat.out nakon sto je izvrsena komanda
 
@@ -116,7 +148,7 @@ cat /dev/null > dat.out
 
 34. Sta znaci skracenica PID ?
 
-35. Koja je razlika izmedju koandi free -m i free -g ?
+35. Koja je razlika izmedju koandi ````free -m i free -g```` ?
 
 36. Objasniti komandu `ls -l *.txt` ukljucujuci i njene opcije.
 
@@ -137,4 +169,4 @@ cat /dev/null > dat.out
 
 42. Koja je svrha fajla ````/etc/aliases````
 
-43. Da li ce nekoliko puta ponovljena komanda curl 'http://google.com:80/fajl.pdf' > fajl.pdf rezultirati validnim fajlom? Objasniti.
+43. Da li ce nekoliko puta ponovljena komanda ````curl 'http://google.com:80/fajl.pdf' > fajl.pdf```` rezultirati validnim fajlom? Objasniti.
