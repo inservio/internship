@@ -15,4 +15,4 @@ aux_links:
     - "//github.com/pmarsceill/just-the-docs"
 
 # Color scheme currently only supports "dark" or nil (default)
-color_scheme: nil
+color_scheme: dark
