@@ -7,21 +7,19 @@ permalink: /docs/tests/test2/
 
 # Test 2
 
-{:toc}
-
-1. Ako uzmemo u obzir da je username trenutno logovanog korisnika tux, koja je apsulutna putanja sljedece relativne putanje?
+* 1. Ako uzmemo u obzir da je username trenutno logovanog korisnika tux, koja je apsulutna putanja sljedece relativne putanje?
 
 ````
 ~/.ssh/.
 ````
 
-2. Sadrzaj kojeg direktorija ce biti prikazan nakon izvrsenja komande?
+* 2. Sadrzaj kojeg direktorija ce biti prikazan nakon izvrsenja komande?
 
 ````
 ls /../../../../..
 ````
 
-3. Sta je cilj sljedece komande?
+* 3. Sta je cilj sljedece komande?
 
 ````
 PATH=$PATH:/var/www
