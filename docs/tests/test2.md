@@ -11,17 +11,23 @@ permalink: /docs/tests/test2/
 
 2. Sadrzaj kojeg direktorija ce biti prikazan nakon izvrsenja komande?
 
+````
 ls /../../../../..
+````
 
 3. Sta je cilj sljedece komande?
 
+````
 PATH=$PATH:/var/www
+````
 
 4. Sadrzaj kojeg direktorija ce biti prikazan nakon izvrsenja sljedece komande?
 
+````
 ls /./././
+````
 
-5. Koja je razlika izmedju komande ls $HOME/.ssh/  i  ls ~/.ssh/ ?
+5. Koja je razlika izmedju komande ````ls $HOME/.ssh/````  i  ````ls ~/.ssh/```` ?
 
 
 6. Sta ce vratiti sljedeca komanda ls . | grep '^\.'
