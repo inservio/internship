@@ -9,7 +9,7 @@ permalink: /docs/dns/querying-dns-name-servers/
 
 ### Dig will let us perform any valid DNS query, the most common of which are:
 
-    A (the IP address)
-    TXT (text annotations)
-    MX (mail exchanges)
-    NS name servers
+* A (the IP address)
+* TXT (text annotations)
+* MX (mail exchanges)
+* NS name servers

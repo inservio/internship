@@ -11,12 +11,8 @@ The list of DNS record types is an overview of resource records (RRs) permissibl
 
 ### Resource records:
 
-    A (Address record) - Returns a 32 bit IPv4 address, most commonly used to map hostnames to an IP address of the host.
-
-    AAAA (IPv6 address record) - Returns a 128-bit IPv6 address, most commonly used to map hostnames to an IP address of the host.
-
-    MX (Mail exchange record) - Maps a domain name to a list of message transfer agents for that domain.
-
-    NS (Name server record) - Delegates a DNS zone to use the given authoritative name servers.
-
-    TXT (Text record) - If we want to set the human-readable text in DNS record.
+* A (Address record) - Returns a 32 bit IPv4 address, most commonly used to map hostnames to an IP address of the host.
+* AAAA (IPv6 address record) - Returns a 128-bit IPv6 address, most commonly used to map hostnames to an IP address of the host.
+* MX (Mail exchange record) - Maps a domain name to a list of message transfer agents for that domain.
+* NS (Name server record) - Delegates a DNS zone to use the given authoritative name servers.
+* TXT (Text record) - If we want to set the human-readable text in DNS record.
