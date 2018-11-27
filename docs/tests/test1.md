@@ -11,11 +11,7 @@ permalink: /docs/tests/test1/
 
 
 
-2. Sta je znaci akronim odnosno komanda ````ls````?
 
-
-
-3. Sta je znaci akronim odnosno komanda ````pwd````?
 
 
 
@@ -35,12 +31,7 @@ permalink: /docs/tests/test1/
 
 
 
-15. Opisati komandu `ls .`
 
-
-
-
-16. Opisati komandu `ls * `
 
 
 
@@ -121,44 +112,15 @@ permalink: /docs/tests/test1/
 
 
 
-41. Opisati komandu ````chmod +x cat.sh````.
-
-
-
 47. Sta je u primjeru ````ls -l /etc/passwd```` argument, sta je komanda, a sta je opcija?
 
 
-
-48. Za sta sluzi komnda ````type````?
-
-
-
-49. Sta postize komanda ````touch 'kakoje'````?
-
-
-50. Zasto koristimo jednostruke navodnike u komandu ````touch 'kako je'````
-
-
-
-52. Zasto dobijamo sljedecu gresku?
-```
-$ ./cat.sh
--bash: ./cat.sh: Permission denied
-```  
 
 
 53. Opisati komandu ````#!/usr/bin/env ruby````.
 
 
 54. Opisati komandu ````grep root /etc/passwd | head -n 1````
-
-
-55. Sta ce biti rezultat komande ````id -u root```` ?
-
-
-58. Opisati komandu ````who````
-
-
 
 
 
@@ -201,11 +163,6 @@ cat ime_prezime
 
 
 
-
-
-
-
-
 75. Kako se zove specijalni znak ````|```` u komandi ````ls | sort````
 
 
@@ -217,8 +174,6 @@ cat ime_prezime
 
 
 77. Koji je razultat komande ````ls . > ls````?
-
-
 
 
 
@@ -291,8 +246,6 @@ cat ime_prezime
 
 
 
-
-
 104. Sta je ````GRUB````?
 
 
@@ -326,14 +279,6 @@ cat ime_prezime
    B. nohup  
    C. saferun  
    D. sh  
-
-
-
-
-
-
-
-
 
 
 122. Opisati komandu ````lsblk````
@@ -381,36 +326,10 @@ cat ime_prezime
 
 146. Da li ````NginX```` loadira module na ````staticki```` ili ````dinamicki```` nacin?
 
-147. Koje permisije na fajl postavlja komanda ````chmod 777 /tmp/staima````
-
-148. Koje persmije ima grupa,vlasnik i ostali u ovom slucaju ````-rwxrwxrwx````
-
-149. Nakon ````chown root.root /tmp/backup.sh```` izvrsene komande koji korisnik te koja grupa je valsnik fajla?
-
-150. Koji je rezultat sljedece komande ````chmod o-w /tmp/backup.sh````
-
 
 
 152. Koja je razlika izmedju komande ````hostname```` i ````hostname -f````
 
-153. Koji ````SHELL```` koristi korisnik u sljedecem primjeru?
-
-````
-nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
-````
-
-
-154. Koji direktorij je postavljen za home u sljedecem primjeru te za kojeg korisnika?
-
-````
-mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
-````
-
-155. Na kojem mjestu u sljedecem primjeru bi se trebao nalaziti password?
-
-````
-web138:x:5006:5007::/var/www/clients/client110/web138:/bin/false
-````
 
 156. Zbog cega izvrasavamo komandu ````echo $PATH````?
 
@@ -419,14 +338,12 @@ web138:x:5006:5007::/var/www/clients/client110/web138:/bin/false
 
 158. Sta znace skracenice ````STDIN````, ````STDOUT```` i ````STDERR````
 
-159. Sta se nalazi u direktorijumu ````/dev````?
 
 
 
 161. Koja je razlika izmjedu ````head```` i ````tail```` komandi?
 
 
-162. Komandu ````ls ~/..```` napisite u verziji koristeci apsolutnu putanju.
 
 
 163. Zbog cega se koristi komanda ````cat > list1```` i koji ce biti rezultat?
@@ -435,10 +352,7 @@ web138:x:5006:5007::/var/www/clients/client110/web138:/bin/false
 164. Koja je razlika izmedju komande ````cat > list1```` i ````cat >> list1````
 
 
-165. Koja je razlika izmedju `ls list*` i `ls *list`?
 
-
-166. Koja je razlika izmedju `list?` i `?list` ?
 
 
 167. Opisite komandu ````wc -l < dat > out````
@@ -453,7 +367,6 @@ web138:x:5006:5007::/var/www/clients/client110/web138:/bin/false
 170. Opisite komandu ````last reboot````
 
 
-172. Kada koristimo komandu ````whoami````
 
 173. Koja je razlike izmedju komandi ````lsof```` i ````lsof -u mysql````
 

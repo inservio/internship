@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to create a link
-parent: Linux
+parent: Commands
 nav_order: 5
 ---
 

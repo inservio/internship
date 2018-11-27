@@ -2,7 +2,6 @@
 layout: default
 title: Test 0 - Fajlovi i direktoriji
 parent: Tests
-permalink: /docs/tests/test0/
 ---
 
 {:toc}
@@ -12,16 +11,7 @@ permalink: /docs/tests/test0/
 1. Koji je ovo tip datoteke ````-rw-r--r--```` ?
 
 
-2. Navesti tri razlicita nacina ulaska u home direktorij korisnika?
-
-
-3. Naposljetku u kojem direktoriju ce rezultirati sljedeci niz komandi? ````cd ~ ; cd /tmp; cd $OLDPWD````
-
-
 4. Koji je ovo tip datoteke ````dr-xr-xr-x````?
-
-
-5. Navesti primjer ````apsolutne```` i ````relativne```` putanje.
 
 
 6. Cime se rezultirati sljedeca komanda ````mkdir /tmp/sta/ima/danas/kod/tebe/druze/moj```` ? Zasto?
@@ -41,6 +31,8 @@ permalink: /docs/tests/test0/
 
 11. Sta predstavlja direktorij ````/tmp````?
 
+159. Sta se nalazi u direktorijumu ````/dev````?
+
 
 12. Koji je ovo tip datoteke ````lrwxr-xr-x@````
 
@@ -56,7 +48,8 @@ permalink: /docs/tests/test0/
 16. Da li svi korisnici imaju permisije da brisu sve fajlove u ````/tmp```` direktoriju? Zaokruziti.
 
 
-17. Da li svi korisnici imaju dozvolje da pisu u ````*/tmp````* direktorij? Zaokruziti.  
+17. Da li svi korisnici imaju dozvolje da pisu u ````*/tmp````* direktorij? Zaokruziti.
+
 A. DA  
 B. NE  
 
@@ -77,26 +70,22 @@ rm: /tmp/cao: No such file or directory
 
 20. Za sta sluzi fajl ````/etc/fstab````?
 
-21. Opsati komandu ````cd .````
+15. Opisati komandu `ls .`
 
 
-22. Opisati komandu ````cd ..````
 
 
-23. Opisati komandu ````cd ../..````
+16. Opisati komandu `ls * `
+
+2. Sta je znaci akronim odnosno komanda ````ls````?
 
 
-24. Opisati komandu ````cd /````
 
 
-25. Opisati komandu ````cd ~````
+49. Sta postize komanda ````touch 'kakoje'````?
+
+48. Za sta sluzi komnda ````type````?
 
 
-26. Opisati komandu ````cd -````
 
-
-27. Sta je znaci akronim odnosno komanda
-
-````
-cd
-````
+50. Zasto koristimo jednostruke navodnike u komandu ````touch 'kako je'````
