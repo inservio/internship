@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to performe valid DNS query
+title: How to performe valid DNS query with dig
 parent: DNS
-permalink: /docs/dns/how-to-performe-valid-dns-query/
+permalink: /docs/dns/dig/
 ---
 
 #### Query Address record with dig command
