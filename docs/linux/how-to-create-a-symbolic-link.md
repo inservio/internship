@@ -68,3 +68,53 @@ ls -i fajl_dva_koji_je_simbolicki_link_na_prvi_fajl
 ```
 
 možemo promjetiti da su inode brojevi razliciti sto znaci da su razliciti fajlove te ako jedan izbrisemo to znaci da drugi fajl nece biti izbrisan
+
+
+#### ***Vjezba***
+
+Izbrisati prvi fajl. Da li je drugi fajl koji je simbolicki link izbrisan? Da li mozemo pomocu cat komande izlistati sadrzaj drugog fajla?
+
+
+
+## Hard linkovi
+
+Kreirati fajl i dodati neki sadrzaj
+
+```
+touch fajl_prvi
+echo "NEKI TESTNI SADRZAJ">fajl_prvi
+```
+
+napraviti hard link
+
+```
+ln fajl_prvi fajl_drugi
+```
+
+provjeriti inode brojeve za oba fajla
+
+```
+ls -i fajl_prvi
+6257560 fajl_prvi
+```
+
+inode broj fajla je broj `6257560`
+```
+ls -i fajl_drugi
+6257560 fajl_drugi
+```
+
+inode broj drugog fajla je takodjer `6257560`
+
+
+inode brojevi su isti sto znaci da su oba fajla linkaju na istu lokaciju na disku
+
+
+##### ***Vjezba***
+
+Sta se desi ako izbrisemo drugi fajl, da li ce prvi fajl biti izbrisan?
+
+
+```
+rm fajl_drugi
+```
