@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test 0 - Network
+title: Test 3 - Network
 parent: Tests
 permalink: /docs/tests/test3/
 ---
@@ -107,25 +107,27 @@ permalink: /docs/tests/test3/
 
 
 
-116. Navesti minimalno jedan port na kojem slusa ````SMTP```` protokol.
+24. Navesti minimalno jedan port na kojem slusa ````SMTP```` protokol.
 
 
 
-117. Virtuelna masini je dodijelna javna IP adresa ````128.53.99.170````. Kojom komandom saznati na kojem serveru se nalazi ta virtuelna masina?
+25. Virtuelna masini je dodijelna javna IP adresa ````128.53.99.170````. Kojom komandom saznati na kojem serveru se nalazi ta virtuelna masina?
 
 
-118. Sta predstavlja ````300```` HTTP status code?
+26. Sta predstavlja ````300```` HTTP status code?
 
 
-119. Sta predstavlja ````400```` HTTP status code?
+27. Sta predstavlja ````400```` HTTP status code?
 
 
-120. Sta predstavlja ````500```` HTTP status code?
+28. Sta predstavlja ````500```` HTTP status code?
 
-121. Sta predstavlja ````200```` HTTP status code?
+29. Sta predstavlja ````200```` HTTP status code?
 
-171. Opisite komandu ````hostname -I````
+30. Opisite komandu ````hostname -I````
 
-174. Sta predstavljaju skracenice ````eth0```` i ````eth1````
+31. Sta predstavljaju skracenice ````eth0```` i ````eth1````
 
-175. Kada koristimo komandu ````host 173.194.76.27```` tj ````host IP_ADRESA````
+32. Kada koristimo komandu ````host 173.194.76.27```` tj ````host IP_ADRESA````
+
+137. Sta znaci skracenica ````FQDN````

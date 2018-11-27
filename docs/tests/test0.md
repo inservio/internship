@@ -30,17 +30,13 @@ permalink: /docs/tests/test0/
 7. Sta predstavlja direktorij ````/root````?
 
 
-
 8. Sta predstavlja direktorij ````/etc````?
-
 
 
 9. Sta predstavlja direktorij ````/opt````?
 
 
-
 10. Sta predstavlja direktorij ````/mnt````?
-
 
 
 11. Sta predstavlja direktorij ````/tmp````?
@@ -61,5 +57,46 @@ permalink: /docs/tests/test0/
 
 
 17. Da li svi korisnici imaju dozvolje da pisu u ````*/tmp````* direktorij? Zaokruziti.  
-   A. DA  
-   B. NE  
+A. DA  
+B. NE  
+
+
+18. Objasniti gresku u sljedecem primjeru.
+
+````
+touch /tmp/CAO
+````
+````
+rm /tmp/cao
+````
+````
+rm: /tmp/cao: No such file or directory
+````
+
+19. Opisati komandu ````mkdir .chef````
+
+20. Za sta sluzi fajl ````/etc/fstab````?
+
+21. Opsati komandu ````cd .````
+
+
+22. Opisati komandu ````cd ..````
+
+
+23. Opisati komandu ````cd ../..````
+
+
+24. Opisati komandu ````cd /````
+
+
+25. Opisati komandu ````cd ~````
+
+
+26. Opisati komandu ````cd -````
+
+
+27. Sta je znaci akronim odnosno komanda
+
+````
+cd
+````

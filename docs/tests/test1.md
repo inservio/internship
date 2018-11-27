@@ -9,16 +9,9 @@ permalink: /docs/tests/test1/
 
 # Pitanja
 
-1. Sta je znaci akronim odnosno komanda
-
-````
-cd
-````
-
 
 
 2. Sta je znaci akronim odnosno komanda ````ls````?
-
 
 
 
@@ -26,42 +19,7 @@ cd
 
 
 
-
-4. Opsati komandu ````cd .````
-
-
-
-
-5. Opisati komandu ````cd ..````
-
-
-
-
-6. Opisati komandu ````cd ../..````
-
-
-
-
-7. Opisati komandu ````cd /````
-
-
-
-
-
-
-
-9. Opisati komandu ````cd ~````
-
-
-
-
-10. Opisati komandu ````cd -````
-
-
-
-
 11. Opisati komandu ````id -G root````
-
 
 
 
@@ -97,45 +55,28 @@ cd
 19. Opisati komandu ````ECHO $OLDPWD````
 
 
-
 20. Opisati komandu ````find . -type f````
-
 
 
 21. Sta predstavlja ````$OLDPWD```` u komadi ````ECHO $OLDPWD````?
 
 
 
-
-
-
-23. Opisati komandu ````./cat.sh````
-
+22. Opisati komandu ````./cat.sh````
 
 
 
 
-
-
-25. Koja je rezlika izmjedju komandi ````id -g root```` i ````id -G root````?
-
+23. Koja je rezlika izmjedju komandi ````id -g root```` i ````id -G root````?
 
 
 
-
-26. Gdje se nalazi sljedeca fatoteka ````~/.bashrc```` ?
+24. Gdje se nalazi sljedeca fatoteka ````~/.bashrc```` ?
 
 
 
 
-
-
-
-
-
-29. Kojom komandom proveravamo koji je ````SHELL```` podesen za trenutnog korisnika?
-
-
+25. Kojom komandom proveravamo koji je ````SHELL```` podesen za trenutnog korisnika?
 
 
 
@@ -143,15 +84,11 @@ cd
 
 
 
-
-
 31. Opisati komandu ````man find````
 
 
 
-
 32. Opisati komandu ````whereis -b bash````
-
 
 
 
@@ -160,12 +97,7 @@ cd
 
 
 
-
-
-
-
 35. Sta ce biti rezultat komande ````id -g root````?
-
 
 
 
@@ -173,9 +105,7 @@ cd
 
 
 
-
 37. Opisati komandu ````cp -p kakoje.rb kakoje2.rb````
-
 
 
 
@@ -183,9 +113,7 @@ cd
 
 
 
-
 39. Na kojoj liniji unutar fajla se nalazi ````#!/bin/bash````?
-
 
 
 
@@ -193,13 +121,7 @@ cd
 
 
 
-
 41. Opisati komandu ````chmod +x cat.sh````.
-
-
-
-
-
 
 
 
@@ -214,13 +136,7 @@ cd
 49. Sta postize komanda ````touch 'kakoje'````?
 
 
-
 50. Zasto koristimo jednostruke navodnike u komandu ````touch 'kako je'````
-
-
-
-
-
 
 
 
@@ -231,30 +147,13 @@ $ ./cat.sh
 ```  
 
 
-
-
-
 53. Opisati komandu ````#!/usr/bin/env ruby````.
-
-
 
 
 54. Opisati komandu ````grep root /etc/passwd | head -n 1````
 
 
-
-
 55. Sta ce biti rezultat komande ````id -u root```` ?
-
-
-
-
-
-
-
-
-
-
 
 
 58. Opisati komandu ````who````
@@ -445,7 +344,6 @@ cat ime_prezime
 
 125. Opisati komandu ````mount /dev/sdc /mnt/sdc/````
 
-126. Za sta sluzi fajl ````/etc/fstab````?
 
 127. Opisati komandu ````blkid````
 
@@ -457,7 +355,6 @@ cat ime_prezime
 
 131. Za sta sluzi komanda ````git clone```` ?
 
-132. Opisati komandu ````mkdir .chef````
 
 133. Opisati komandu ````cat /home/rails/.ssh/id_rsa.pub````
 
@@ -465,10 +362,6 @@ cat ime_prezime
 
 135. Zbog cega koristimo ````sudo```` komandu?
 
-136. Sta radi komanda ````Location="westeurope"```` u bash shellu?
-
-
-137. Sta znaci skracenica ````FQDN````
 
 138. Koja je razlika izmedju komandu ````grep root /etc -r```` i ````grep root /etc -rl````?
 
@@ -496,17 +389,7 @@ cat ime_prezime
 
 150. Koji je rezultat sljedece komande ````chmod o-w /tmp/backup.sh````
 
-151. Objasniti gresku u sljedecem primjeru.
 
-````
-touch /tmp/CAO
-````
-````
-rm /tmp/cao
-````
-````
-rm: /tmp/cao: No such file or directory
-````
 
 152. Koja je razlika izmedju komande ````hostname```` i ````hostname -f````
 
@@ -538,15 +421,7 @@ web138:x:5006:5007::/var/www/clients/client110/web138:/bin/false
 
 159. Sta se nalazi u direktorijumu ````/dev````?
 
-160. Koji je rezultat sljedece skripte?  
-````
-if [ 1 -gt 100 ]  
-then  
-echo 'TRUE'  
-else  
-echo 'FALSE'  
-fi  
-````
+
 
 161. Koja je razlika izmjedu ````head```` i ````tail```` komandi?
 
@@ -587,78 +462,3 @@ fi
 175. Koje permisije postavlja komanda ````chmod 00000 test.sh````
 
 176. Koje permisije posjeduje grupa na fajlu sa sljedecom reprezantacijom ````----------````?
-
-177. Koji je rezultat sljedece skripte?  
-````
-if [ 1 -lt 100 ]  
-then  
-echo 'TRUE'  
-else  
-echo 'FALSE'  
-fi  
-````
-
-178. Koji je rezultat sljedece skripte?
-````
-if [ 100 -eq 100 ]  
-then  
-echo 'TRUE'  
-else  
-echo 'FALSE'  
-fi
-````
-
-179. Koji je rezultat sljedece skripte?
-````
-if [ 100 -ne 100 ]  
-then  
-echo 'TRUE'  
-else  
-echo 'FALSE'  
-fi
-````
-
-180. Koji je rezultat sljedece skripte?
-````
-if [ 100 -ge 100 ]  
-then  
-echo 'TRUE'  
-else  
-echo 'FALSE'  
-fi
-````
-
-
-
-181. Koji je rezultat sljedece skripte?
-````
-if [ 100 -le 100 ]  
-then  
-echo 'TRUE'  
-else  
-echo 'FALSE'  
-fi
-````
-
-
-
-182. Koji je rezultat sljedece skripte?
-````
-if [ 1 -ge 100 ] || [ 100 -eq 100 ]
-then  
-echo 'TRUE'  
-else  
-echo 'FALSE'  
-fi
-````
-
-
-183. Koji je rezultat sljedece skripte?
-````
-if [ 1 -ge 100 ] && [ 100 -eq 100 ]
-then  
-echo 'TRUE'  
-else  
-echo 'FALSE'  
-fi
-````
