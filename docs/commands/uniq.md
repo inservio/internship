@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Command uniq
-parent: Linux
+parent: Commands
 nav_order: 5
 toc: true
 ---
