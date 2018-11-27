@@ -10,18 +10,18 @@ In the shell, this can be achieved if you use the if-then-else construction.
 
 #### Example for if-then-else construction
 
-{% highlight ruby %}
+{% highlight bash %}
 if [1 -lt 100]
   then
     echo "Correct"
   else
     echo "Not Correct"
 fi
-{% endhighlight ruby %}
+{% endhighlight bash %}
 
 #### Display the output
 
-{% highlight ruby %}
+{% highlight bash %}
 Correct
 Because 1 is less than 100.
-{% endhighlight ruby %}
+{% endhighlight bash %}

@@ -17,8 +17,8 @@ Combine the command ls -a -l and display the length of the list.
 
 {% highlight ruby %}
 if ls
-  then
-    ls -a
-    ls -l
+then
+ls -a
+ls -l
 fi
 {% endhighlight ruby %}
