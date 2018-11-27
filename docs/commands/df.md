@@ -6,6 +6,18 @@ nav_order: 5
 toc: true
 ---
 
+## Introduction
+
+df - report file system disk space usage
+
+
+### Getting help
+
+````
+df --help
+man df
+````
+
 ### Command ```df```
 
 we use when we want to get the attributes of all, or the specified file systems on the system.

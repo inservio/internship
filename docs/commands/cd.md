@@ -6,6 +6,18 @@ nav_order: 5
 toc: true
 ---
 
+## Introduction
+
+### Getting help
+
+````
+cd -h
+````
+
+````
+cd --help
+````
+
 
 #### Komanda **cd**
 

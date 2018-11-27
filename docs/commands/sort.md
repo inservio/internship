@@ -6,6 +6,16 @@ nav_order: 5
 toc: true
 ---
 
+## Introduction
+
+sort - sort lines of text files
+
+### Getting help
+
+````
+man sort
+sort --help
+````
 
 ## Commands ```sort```
 We use when we want to sort the specified file according to the specified order.

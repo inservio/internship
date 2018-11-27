@@ -6,6 +6,16 @@ nav_order: 5
 toc: true
 ---
 
+## Introduction
+
+uniq - report or omit repeated lines
+
+### Getting help
+
+````
+man uniq
+uniq --help
+````
 
 ## Command ```uniq```
 We use when we want to eliminate duplicate adjacent rows from a file, or from a standard input, in order to generate a standard output, or another file.

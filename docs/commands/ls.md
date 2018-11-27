@@ -6,6 +6,16 @@ nav_order: 5
 toc: true
 ---
 
+## Introduction
+
+ ls - list directory contents
+
+
+### Getting help
+
+````
+man ls
+````
 
 ### 2.3.7 Ispis sadržaja direktorija sa komandom `ls`
 

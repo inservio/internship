@@ -6,6 +6,6 @@ has_children: true
 permalink: /docs/commands/
 ---
 
-# Linux
+# Linux Commands
 
 {:toc}

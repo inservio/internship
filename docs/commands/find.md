@@ -6,6 +6,17 @@ nav_order: 5
 toc: true
 ---
 
+## Introduction
+
+find - search for files in a directory hierarchy
+
+
+### Getting help
+
+````
+man find
+find --help
+````
 
 ## Komanda **find**
 

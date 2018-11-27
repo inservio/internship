@@ -5,7 +5,16 @@ parent: Commands
 nav_order: 5
 toc: true
 ---
+## Introduction
 
+sed - stream editor for filtering and transforming text
+
+### Getting help
+
+````
+man sed
+sed --help
+````
 
 ## Command ```sed```
 SED is a powerful text stream editor.
