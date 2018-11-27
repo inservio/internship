@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Command sed
+title: sed
 parent: Commands
 nav_order: 5
 toc: true

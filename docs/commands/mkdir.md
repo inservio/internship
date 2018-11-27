@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Command mkdir
+title: mkdir
 parent: Commands
 nav_order: 5
 toc: true

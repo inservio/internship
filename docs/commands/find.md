@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Command find
+title: find
 parent: Commands
 nav_order: 5
 toc: true

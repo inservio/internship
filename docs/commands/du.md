@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Command du
+title: du
 parent: Commands
 nav_order: 5
 toc: true

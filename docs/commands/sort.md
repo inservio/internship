@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Command sort
+title: sort
 parent: Commands
 nav_order: 5
 toc: true

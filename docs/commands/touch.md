@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Command touch
+title: touch
 parent: Commands
 nav_order: 5
 toc: true

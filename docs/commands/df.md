@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Command df
+title: df
 parent: Commands
 nav_order: 5
 toc: true
