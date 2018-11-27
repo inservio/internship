@@ -46,7 +46,6 @@ cd
 
 
 
-8. Koji je ovo tip datoteke ````-rw-r--r--```` ?
 
 
 
@@ -107,7 +106,6 @@ cd
 
 
 
-22. Navesti tri razlicita nacina ulaska u home direktorij korisnika?
 
 
 
@@ -116,7 +114,6 @@ cd
 
 
 
-24. Naposljetku u kojem direktoriju ce rezultirati sljedeci niz komandi? ````cd ~ ; cd /tmp; cd $OLDPWD````
 
 
 
@@ -131,12 +128,7 @@ cd
 
 
 
-27. Koji je ovo tip datoteke ````dr-xr-xr-x````?
 
-
-
-
-28. Navesti primjer ````apsolutne```` i ````relativne```` putanje.
 
 
 
@@ -168,7 +160,6 @@ cd
 
 
 
-34. Cime se rezultirati sljedeca komanda ````mkdir /tmp/sta/ima/danas/kod/tebe/druze/moj```` ? Zasto?
 
 
 
@@ -208,23 +199,7 @@ cd
 
 
 
-42. Sta predstavlja direktorij ````/root````?
 
-
-
-43. Sta predstavlja direktorij ````/etc````?
-
-
-
-44. Sta predstavlja direktorij ````/opt````?
-
-
-
-45. Sta predstavlja direktorij ````/mnt````?
-
-
-
-46. Sta predstavlja direktorij ````/tmp````?
 
 
 
@@ -245,7 +220,6 @@ cd
 
 
 
-51. Koji je ovo tip datoteke ````lrwxr-xr-x@````
 
 
 
@@ -275,12 +249,10 @@ $ ./cat.sh
 
 
 
-56. Opisati ````-p```` u komandi ````mkdir -p /tmp/dobar/dan/je/danas````
 
 
 
 
-57. Sta se desi sa sadrzajem direktorija ````/tmp```` nakon reboota?
 
 
 
@@ -288,8 +260,6 @@ $ ./cat.sh
 58. Opisati komandu ````who````
 
 
-
-59. Kako se zove specijalni znak ````\```` u komandi ````ls /tmp/Dimu\ Borgir/````?
 
 
 
@@ -334,48 +304,6 @@ cat ime_prezime
 
 
 
-66. Koje podatke dobijamo kao rezultat komande ````ping google.com````?
-
-
-
-
-67. Koji protokol koristi komanda ````ping````?
-
-
-
-
-68. Objasniti opciju ````-c 4```` u komandi ````ping -c 4 google.com````?
-
-
-
-
-69. Objasniti opciju ````-4 ```` u komandu ````ping -4 google.com````.
-
-
-
-
-70. Navesti primjer privatne IP adrese.
-
-
-
-
-71. Sta predstavlja ````NAT````
-
-
-
-
-72. Na koji IP resolva hostname ````localhost````?
-
-
-
-
-73. Opisati komandu ````nslookup google.com````
-
-
-
-
-74. Na kojem portu sluza ````DNS````?
-
 
 
 
@@ -394,40 +322,6 @@ cat ime_prezime
 
 
 
-78. Navesti dva protokola ````Transport layera````
-
-
-
-
-79. Navesti nekoliko protokola ````Application layera````
-
-
-
-80. Koju IP adresu ce prikazati komanda ````ifconfig lo````?
-
-
-
-81. Kako se naziva ````lo```` device u komandi ````ifconfig lo````
-
-
-
-82. Koju IP adresu ce rezolvati komanda ````ping -4 localhost````?
-
-
-
-83. Sta predstavlja ````/24```` u izrazu ````192.0.2.0/24````?
-
-
-
-84. Koji je raspon privilegovanih portova?
-
-
-
-85. Koji je raspon neprivilegovanih portova?
-
-
-
-86. Na kojem portu slusa ````HTTP```` protokol?
 
 
 
@@ -497,7 +391,6 @@ cat ime_prezime
 
 
 
-103. Koja je glavna prednost ````SSH```` protokola u odnosu na ````TELNET````?
 
 
 
@@ -541,42 +434,10 @@ cat ime_prezime
    A. DA  
    B. NE  
 
-111. Da li svi korisnici imaju permisije da brisu sve fajlove u ````/tmp```` direktoriju? Zaokruziti.
 
 
 
-112. IP adresa korisnikovog racunara je ````192.168.0.55````. Koja je po konvenciji IP adresa routera?
 
-
-
-113. Na koja dva ````transport layera```` operira DNS protokol?
-
-
-
-114. Koja je svrha ````DHCP```` protokola?
-
-
-
-115. Na kojem mreznom uredjaju je podesen ````DHCP```` servis?
-
-
-
-116. Navesti minimalno jedan port na kojem slusa ````SMTP```` protokol.
-
-
-
-117. Virtuelna masini je dodijelna javna IP adresa ````128.53.99.170````. Kojom komandom saznati na kojem serveru se nalazi ta virtuelna masina?
-
-
-118. Sta predstavlja ````300```` HTTP status code?
-
-
-119. Sta predstavlja ````400```` HTTP status code?
-
-
-120. Sta predstavlja ````500```` HTTP status code?
-
-121. Sta predstavlja ````200```` HTTP status code?
 
 122. Opisati komandu ````lsblk````
 
@@ -638,21 +499,37 @@ cat ime_prezime
 150. Koji je rezultat sljedece komande ````chmod o-w /tmp/backup.sh````
 
 151. Objasniti gresku u sljedecem primjeru.
-````touch /tmp/CAO````
-````rm /tmp/cao````
-````rm: /tmp/cao: No such file or directory````
+
+````
+touch /tmp/CAO
+````
+````
+rm /tmp/cao
+````
+````
+rm: /tmp/cao: No such file or directory
+````
 
 152. Koja je razlika izmedju komande ````hostname```` i ````hostname -f````
 
 153. Koji ````SHELL```` koristi korisnik u sljedecem primjeru?
-````nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false````
+
+````
+nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+````
 
 
 154. Koji direktorij je postavljen za home u sljedecem primjeru te za kojeg korisnika?
-````mail:x:8:8:mail:/var/mail:/usr/sbin/nologin````
 
-155. Na kojem mjestu u sljedecem primjeru bi se trebao nalaziti password?  
-````web138:x:5006:5007::/var/www/clients/client110/web138:/bin/false````
+````
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+````
+
+155. Na kojem mjestu u sljedecem primjeru bi se trebao nalaziti password?
+
+````
+web138:x:5006:5007::/var/www/clients/client110/web138:/bin/false
+````
 
 156. Zbog cega izvrasavamo komandu ````echo $PATH````?
 
@@ -702,15 +579,12 @@ fi
 
 170. Opisite komandu ````last reboot````
 
-171. Opisite komandu ````hostname -I````
 
 172. Kada koristimo komandu ````whoami````
 
 173. Koja je razlike izmedju komandi ````lsof```` i ````lsof -u mysql````
 
-174. Sta predstavljaju skracenice ````eth0```` i ````eth1````
 
-175. Kada koristimo komandu ````host 173.194.76.27```` tj ````host IP_ADRESA````
 
 175. Koje permisije postavlja komanda ````chmod 00000 test.sh````
 
