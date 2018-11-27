@@ -430,9 +430,7 @@ cat ime_prezime
 
 
 
-110. Da li svi korisnici imaju dozvolje da pisu u ````*/tmp````* direktorij? Zaokruziti.  
-   A. DA  
-   B. NE  
+
 
 
 
