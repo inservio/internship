@@ -11,54 +11,38 @@ permalink: /docs/tests/test1/
 
 
 
+1. Opisati komandu ````which ls````
+
+
+
+2. Opisati komandu `ls -a | grep '^.'`
+
+
+
+3. Opisati komandu ````chmod -x cat.sh````
+
+
+
+4. Opisati komandu ````ls -i /etc/passwd````
+
+
+
+5. Opisati komandu ````ECHO $OLDPWD````
+
+
+6. Opisati komandu ````find . -type f````
+
+
+7. Sta predstavlja ````$OLDPWD```` u komadi ````ECHO $OLDPWD````?
+
+
+
+8. Opisati komandu ````./cat.sh````
 
 
 
 
-11. Opisati komandu ````id -G root````
-
-
-
-12. Opisati komandu ````which ls````
-
-
-
-13. Opisati komandu `ls -a | grep '^.'`
-
-
-
-14. Koji ````numericki ID```` je dodijeljen korisniku ````root````?
-
-
-
-
-
-
-
-17. Opisati komandu ````chmod -x cat.sh````
-
-
-
-18. Opisati komandu ````ls -i /etc/passwd````
-
-
-
-19. Opisati komandu ````ECHO $OLDPWD````
-
-
-20. Opisati komandu ````find . -type f````
-
-
-21. Sta predstavlja ````$OLDPWD```` u komadi ````ECHO $OLDPWD````?
-
-
-
-22. Opisati komandu ````./cat.sh````
-
-
-
-
-23. Koja je rezlika izmjedju komandi ````id -g root```` i ````id -G root````?
+9. Koja je rezlika izmjedju komandi ````id -g root```` i ````id -G root````?
 
 
 

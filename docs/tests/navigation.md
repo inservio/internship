@@ -33,13 +33,25 @@ parent: Tests
 
 8. Opisati komandu ````cd -````
 
-5. Navesti primjer ````apsolutne```` i ````relativne```` putanje.
+9. Navesti primjer ````apsolutne```` i ````relativne```` putanje.
 
-3. Sta je znaci akronim odnosno komanda ````pwd````?
+10. Sta je znaci akronim odnosno komanda ````pwd````?
 
-162. Komandu ````ls ~/..```` napisite u verziji koristeci apsolutnu putanju.
+11. Komandu ````ls ~/..```` napisite u verziji koristeci apsolutnu putanju.
 
-165. Koja je razlika izmedju `ls list*` i `ls *list`?
+12. Koja je razlika izmedju `ls list*` i `ls *list`?
 
 
-166. Koja je razlika izmedju `list?` i `?list` ?
+12. Koja je razlika izmedju `list?` i `?list` ?
+
+13. Ako uzmemo u obzir da je username trenutno logovanog korisnika tux, koja je apsulutna putanja sljedece relativne putanje?
+
+````
+~/.ssh/.
+````
+
+14. Sadrzaj kojeg direktorija ce biti prikazan nakon izvrsenja komande?
+
+````
+ls /../../../../..
+````

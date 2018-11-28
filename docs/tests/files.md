@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test 0 - Fajlovi i direktoriji
+title: Test 00 - Fajlovi i direktoriji
 parent: Tests
 ---
 
@@ -8,36 +8,51 @@ parent: Tests
 
 # Pitanja
 
+## Tipovi datoteka
+
 1. Koji je ovo tip datoteke ````-rw-r--r--```` ?
 
 
-4. Koji je ovo tip datoteke ````dr-xr-xr-x````?
+2. Koji je ovo tip datoteke ````dr-xr-xr-x````?
+
+
+3. Koji je ovo tip datoteke ````srwxr-xr-x````
+
+
+4. Koji je ovo tip datoteke ````lrwxr-xr-x@````
+
+
+5. Koji je ovo tip datoteke ````crw--w----````
+
+## Filesystem Hierarchy Standard
+
+
+1. Sta predstavlja direktorij ````/root````?
+
+
+2. Sta predstavlja direktorij ````/etc````?
+
+
+3. Sta predstavlja direktorij ````/opt````?
+
+
+4. Sta predstavlja direktorij ````/mnt````?
+
+
+5. Sta predstavlja direktorij ````/tmp````?
+
+
+6. Sta se nalazi u direktorijumu ````/dev````?
+
+## Rad sa fajlovima i direktorijima
 
 
 6. Cime se rezultirati sljedeca komanda ````mkdir /tmp/sta/ima/danas/kod/tebe/druze/moj```` ? Zasto?
 
 
-7. Sta predstavlja direktorij ````/root````?
-
-
-8. Sta predstavlja direktorij ````/etc````?
-
-
-9. Sta predstavlja direktorij ````/opt````?
-
-
-10. Sta predstavlja direktorij ````/mnt````?
-
-
-11. Sta predstavlja direktorij ````/tmp````?
-
-159. Sta se nalazi u direktorijumu ````/dev````?
-
-
-12. Koji je ovo tip datoteke ````lrwxr-xr-x@````
-
 
 13. Opisati ````-p```` u komandi ````mkdir -p /tmp/dobar/dan/je/danas````
+
 
 14. Sta se desi sa sadrzajem direktorija ````/tmp```` nakon reboota?
 
@@ -58,34 +73,29 @@ B. NE
 
 ````
 touch /tmp/CAO
-````
-````
 rm /tmp/cao
-````
-````
 rm: /tmp/cao: No such file or directory
 ````
 
 19. Opisati komandu ````mkdir .chef````
 
+
 20. Za sta sluzi fajl ````/etc/fstab````?
 
-15. Opisati komandu `ls .`
+
+21. Opisati komandu `ls .`
 
 
+22. Opisati komandu `ls * `
 
 
-16. Opisati komandu `ls * `
-
-2. Sta je znaci akronim odnosno komanda ````ls````?
+23. Sta je znaci akronim odnosno komanda ````ls````?
 
 
+24. Sta postize komanda ````touch 'kakoje'````?
 
 
-49. Sta postize komanda ````touch 'kakoje'````?
-
-48. Za sta sluzi komnda ````type````?
+25. Za sta sluzi komnda ````type````?
 
 
-
-50. Zasto koristimo jednostruke navodnike u komandu ````touch 'kako je'````
+26. Zasto koristimo jednostruke navodnike u komandu ````touch 'kako je'````

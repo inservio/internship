@@ -6,19 +6,9 @@ parent: Tests
 
 # Test 2
 
-* 1. Ako uzmemo u obzir da je username trenutno logovanog korisnika tux, koja je apsulutna putanja sljedece relativne putanje?
 
-````
-~/.ssh/.
-````
 
-* 2. Sadrzaj kojeg direktorija ce biti prikazan nakon izvrsenja komande?
-
-````
-ls /../../../../..
-````
-
-* 3. Sta je cilj sljedece komande?
+3. Sta je cilj sljedece komande?
 
 ````
 PATH=$PATH:/var/www
@@ -35,11 +25,8 @@ ls /./././
 
 6. Sta ce vratiti sljedeca komanda ````ls . | grep '^\.'````
 
-7. Koji ce korisnik biti prikazan na ispisu komande
 
-````
-cat /etc/passwd | grep ':0:'
-````
+
 
 8. Opisati komandu
 
@@ -55,7 +42,6 @@ web7@server:~$ cd /home/$USER
 
 10. Koji je razultat komande ````ls /. >> ./ls```` ?
 
-11. Zasto se portovi dijele u privilegovane i u neprivilegovane?
 
 12. Koji je rezultat sljedece komande
 
