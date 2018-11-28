@@ -10,4 +10,6 @@ permalink: /docs/proc/how-to-list-of-partitions/
 
 If we want to find the list of partitions we use command:
 
-```cat /proc/partitions```
+```
+cat /proc/partitions
+```
