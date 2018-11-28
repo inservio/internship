@@ -9,4 +9,6 @@ permalink: /docs/proc/how-to-display-information-about-ram-memory/
 
 If we want to know the information about RAM memory we have to use command:
 
-```cat /proc/meminfo```
+```
+cat /proc/meminfo
+```
