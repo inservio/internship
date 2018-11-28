@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test 0 - Fajlovi i direktoriji
+title: Test 00 - Fajlovi i direktoriji
 parent: Tests
 ---
 
@@ -24,29 +24,31 @@ parent: Tests
 
 5. Koji je ovo tip datoteke ````crw--w----````
 
+## Filesystem Hierarchy Standard
+
+
+1. Sta predstavlja direktorij ````/root````?
+
+
+2. Sta predstavlja direktorij ````/etc````?
+
+
+3. Sta predstavlja direktorij ````/opt````?
+
+
+4. Sta predstavlja direktorij ````/mnt````?
+
+
+5. Sta predstavlja direktorij ````/tmp````?
+
+
+6. Sta se nalazi u direktorijumu ````/dev````?
 
 ## Rad sa fajlovima i direktorijima
 
 
 6. Cime se rezultirati sljedeca komanda ````mkdir /tmp/sta/ima/danas/kod/tebe/druze/moj```` ? Zasto?
 
-
-7. Sta predstavlja direktorij ````/root````?
-
-
-8. Sta predstavlja direktorij ````/etc````?
-
-
-9. Sta predstavlja direktorij ````/opt````?
-
-
-10. Sta predstavlja direktorij ````/mnt````?
-
-
-11. Sta predstavlja direktorij ````/tmp````?
-
-
-12. Sta se nalazi u direktorijumu ````/dev````?
 
 
 13. Opisati ````-p```` u komandi ````mkdir -p /tmp/dobar/dan/je/danas````
