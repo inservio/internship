@@ -8,10 +8,9 @@ permalink: /docs/dns/what-is-dns/
 # Introduction
 
 ## What is DNS?
+The Domain Name System (DNS) is the phonebook of the Internet. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so we don’t have to remember IP address for example of google.com (172.217.16.206).
 
 ## Demonstration
-
-The Domain Name System (DNS) is the phonebook of the Internet. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so we don’t have to remember IP address for example of google.com (172.217.16.206).
 
 ### Examples for DNS
 
