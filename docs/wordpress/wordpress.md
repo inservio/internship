@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Shell
+title: Wordpress
 nav_order: 3
 has_children: true
-permalink: /docs/shell/
+permalink: /docs/wordpress/
 ---
 
 # Shell
