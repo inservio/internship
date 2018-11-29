@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 0 User Setup and Wordpress Download       
+title: 00 User Setup and Wordpress Download       
 parent: Wordpress
 ---
 
@@ -79,4 +79,11 @@ rm -rf wordpress/
 
 ````
 ls /var/www/wartburg.com/web
+````
+
+## Change ownership
+
+If you extracted the wordpress archive as root user then change the ownership as follows.
+````
+chown -R wartburg.wartburg /var/www/wartburg.com/web
 ````
