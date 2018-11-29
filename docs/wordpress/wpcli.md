@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3 WPCLI - Wordpress Command Line Interface      
+title: 03 WPCLI - Wordpress Command Line Interface      
 parent: Wordpress
 ---
 # WPCLI

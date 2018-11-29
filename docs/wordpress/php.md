@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 00 PHP Setup       
+title: 02 PHP Setup       
 parent: Wordpress
 ---
 
