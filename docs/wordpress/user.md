@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 0 Wordpress Setup       
+title: 0 User Setup and Wordpress Download       
 parent: Wordpress
 ---
 
 # User Setup
 
-* The name of the user should be associated to the web site name. For example if the name of the web site is wartburd.com then the user with username `wartburg` should be created.
+* The name of the user should be associated to the web site name. For example if the name of the web site is wartburg.com then the user with username `wartburg` should be created.
 
 ## User setup
 
@@ -19,6 +19,8 @@ echo $RANDOM_PASSWORD
 ````
 
 ### Add the user
+
+Use the random generated password as the user's password.
 
 ````
 adduser wartburg
