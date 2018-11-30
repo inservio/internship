@@ -13,3 +13,35 @@ parent: Wordpress
 ````
 grep keepalive_timeout /etc/nginx/ -rl
 ````
+
+### Bad gateway
+
+This means nginx is tring to connect to PHP service and either the service is down or the path to the PHP socket is wrong.
+
+Solution is to check the socket and service status.
+
+* Check socket in NginX and PHP
+
+````
+grep '\.sock' /etc/php/ -r
+````
+
+compare with
+
+````
+grep '\.sock' /etc/nginx/sites-available/ -r
+````
+
+* Check PHP service status
+
+ first check php service name
+
+ ````
+ systemctl list-units | grep php
+ ````
+
+ check php service status
+
+ ````
+ systemctl php7.0-fpm.service status
+ ````
