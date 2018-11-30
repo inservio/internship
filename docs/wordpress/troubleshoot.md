@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 04 Troubleshooting      
+title: Troubleshooting      
 parent: Wordpress
 ---
 
