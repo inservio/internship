@@ -9,11 +9,15 @@ parent: Wordpress
 
 As `root` user
 
+Install curl
+
+````
+apt-get install curl
+````
 Once you’ve verified requirements, download the wp-cli.phar file using wget or curl:
 
 ````
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
-
 ````
 
 Next, check if it is working:
