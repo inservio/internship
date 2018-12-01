@@ -43,5 +43,5 @@ grep '\.sock' /etc/nginx/sites-available/ -r
  check php service status
 
  ````
- systemctl php7.0-fpm.service status
+ systemctl status php7.0-fpm.service
  ````
