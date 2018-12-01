@@ -5,8 +5,11 @@ parent: Nginx
 permalink: /docs/nginx/how-to-configurate-nginx/
 ---
 
+# Introduction 
 
-### Configuration Nginx
+Configuration Nginx
+
+## Demonstration
 
 Two main configuration terms are context and directives.
 

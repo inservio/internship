@@ -5,12 +5,13 @@ parent: Nginx
 permalink: /docs/nginx/how-to-install-nginx/
 ---
 
-
-## NGINX
+# Introduction
 
 NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.
 
-## Installation and configuration nginx
+## Demonstration
+
+### Installation and configuration nginx
 
 To install nginx we need to log in to our server
 

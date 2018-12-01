@@ -5,8 +5,11 @@ parent: Nginx
 permalink: /docs/nginx/building-nginx-from-source-and-adding-modules/
 ---
 
+# Introduction 
 
-### Building Nginx from source and adding modules
+Building Nginx from source and adding modules
+
+## Demonstration
 
 Connect to your server root@yourserver.com !
 
