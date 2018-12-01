@@ -4,9 +4,11 @@ title: Command ifconfig
 parent: Network
 permalink: /docs/network/how-to-configure-network-interface-parameters/
 ---
-
+# Introduction
 
 The ifconfig utility is used to assign an address to a network interface and/or configure network interface parameters.
+
+## Demonstration
 
 #### Examples for ifconfig
 

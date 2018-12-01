@@ -5,10 +5,13 @@ parent: Network
 permalink: /docs/network/how-to-show-network-status/
 ---
 
+# Introduction
 
 Most useful and very versatile for finding connection to and from the host.
 
-#### Examples for netstat command
+## Demonstration
+
+### Examples for netstat command
 
 ```netstat -a or netstat -all```
 Display all connections including TCP and UDP.
