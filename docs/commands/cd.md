@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ls
+title: cd
 parent: Commands
 nav_order: 5
 toc: true
