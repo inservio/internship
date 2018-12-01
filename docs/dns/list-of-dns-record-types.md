@@ -4,8 +4,8 @@ title: List of DNS record types
 parent: DNS
 permalink: /docs/dns/list-of-dns-record-types/
 ---
-
-## List of DNS record types
+# Introduction
+ List of DNS record types
 
 The list of DNS record types is an overview of resource records (RRs) permissible in zone files of the Domain Name System (DNS).
 

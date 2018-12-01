@@ -4,6 +4,7 @@ title: How to performe valid DNS query with dig
 parent: DNS
 permalink: /docs/dns/dig/
 ---
+# Examples for dig command
 
 #### Query Address record with dig command
 If we want to display A records use the command dig A.
