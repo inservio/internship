@@ -5,9 +5,15 @@ parent: Proc
 permalink: /docs/proc/how-to-display-information-about-ram-memory/
 ---
 
-### Command ```cat /proc/meminfo```
+# Introduction
 
-If we want to know the information about RAM memory we have to use command:
+If we want to know the information about RAM memory we have to use command
+ 
+```cat /proc/meminfo```
+
+## Demonstration
+
+### Example
 
 ```
 cat /proc/meminfo
