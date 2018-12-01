@@ -6,12 +6,15 @@ nav_order: 5
 toc: true
 ---
 
+# Introduction
 
-### Skriveni fajlovi
+Skriveni fajlovi
 
-U Linuxu skriveni fajlovi su fajlovi cije ime pocinje sa **tackom** odnosno zakom **.**. Da bi izlistali skrivene fajlove koristimo opciju **-a** sa komanom **ls** da nam izlista sve vrste fajlova ukljucujuci i skrivene fajove.
+U Linuxu skriveni fajlovi su fajlovi cije ime pocinje sa **tackom** odnosno znakom **.**. Da bi izlistali skrivene fajlove koristimo opciju **-a** sa komandom **ls** da nam izlista sve vrste fajlova ukljucujuci i skrivene fajove.
 
 Pomocu pipinga i grep komande mozemo izlistati sve fajlove koji pocinju sa znakom **.**.
+
+## Demonstration
 
 ````
 ls -a | grep '^.'

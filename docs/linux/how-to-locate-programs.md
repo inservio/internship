@@ -6,12 +6,14 @@ nav_order: 5
 toc: true
 ---
 
+# Introduction
 
-## Command whereis
-
+Command whereis
 We use it to search binary files, as well as other commands, source and manual pages.
 
-#### Example
+## Demonstration
+
+### Example
 {% highlight bash %}
 whereis $1
 {% endhighlight bash %}
@@ -19,7 +21,7 @@ whereis $1
 Another option for whereis command ``` whereis -m```
 We use it to search for manual page of some program.
 
-#### Example
+### Example
 {% highlight bash %}
 whereis -m $1
 {% endhighlight bash %}

@@ -6,10 +6,13 @@ nav_order: 5
 toc: true
 ---
 
+# Introduction
 
-## Enter multiple commands in one row
+Enter multiple commands in one row
 Usually, shell interprets the first word from the command input as the command name, and the rest of the input as an argument for that command.
 A special shell character, a dot-comma (;), tells the shelf that the text of the previous command has ended and that what comes next behind this character is a new command.
+
+## Demonstration
 
 ### Example
 {% highlight bash %}

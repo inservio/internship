@@ -6,9 +6,9 @@ nav_order: 5
 toc: true
 ---
 
+# Intorduction
 
-#### Using the Command Line to Get Help
-
+Using the Command Line to Get Help
 Description: Running help commands and navigation of the various help systems.
 
 **Key Knowledge Areas:**

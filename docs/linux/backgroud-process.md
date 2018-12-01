@@ -6,9 +6,9 @@ nav_order: 5
 toc: true
 ---
 
+# Introduction
 
-## Entering the commands that are processed in the background
-
+Entering the commands that are processed in the background
 Shell provides the ability to handle commands in the background.
 This is achieved by setting the ampersand symbol, &, to the end of the command.
 
@@ -16,10 +16,11 @@ This is achieved by setting the ampersand symbol, &, to the end of the command.
 find / -name "$1" -print > find.results 2>/dev/null &
 {% endhighlight bash %}
 
+## Demonstration
 
 ### Slanje procesa i background
 
-Da bi poslali komandu u backgroun, nakon komande dodamo znak `&` tj. znak ampersand.
+Da bi poslali komandu u background, nakon komande dodamo znak `&` tj. znak ampersand.
 
 U sljedecem primjeru zelimo da pingamo google svakih 5 sekundi sa komandom `ping -i 5 google.com`. Da bi je poslali u background, aa sami kraj komande dodajemo znak `&`.
 

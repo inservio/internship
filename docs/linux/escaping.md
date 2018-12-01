@@ -6,7 +6,7 @@ nav_order: 5
 toc: true
 ---
 
-### “Escaping” characters
+# Introduction
 
 Ako zelimo napraviti fajl sa razmakom u imenu, moramo koristiti navodnike. Koristenje navodnika je jedan vid tzv. “Escaping” karaktera.  “Escaping” je potrebno raditi sa svim specijalnom karakterima.
 
@@ -16,10 +16,12 @@ Pored razmaka u specijalne karaktere ubrajamo
 $&;(){}[]*?!<>"'
 ````
 
+## Demonstration
+
 * Za “Escaping” samo jednog karaktera koristimo znak `\` ili backslash.
 * Za “Escaping” vise rijeci od jednom koristimo jednostruke `''` i dvostruke `"…"` navodnike.
 
-#### Pravljenje fajla sa razmakom u imenu
+### Pravljenje fajla sa razmakom u imenu
 
 ````
 touch 'Novi Fajl'
