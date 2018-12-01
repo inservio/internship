@@ -50,7 +50,7 @@ mv wp-cli.phar /usr/local/bin/wp
 Login as website user
 
 ````
-su wordpresspage_nomimono -l
+su wartburg_com -l
 ````
 
 Change directory to website web folder

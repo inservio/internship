@@ -75,7 +75,7 @@ chdir = /var/www/wartburg.com
 
 request_terminate_timeout = 300s
 
-php_admin_value[open_basedir] = /var/www/wartburg.com:/usr/share/php5:/usr/share/php::/usr/share/pear:/tmp:/usr/share/phpmyadmin:/etc/phpmyadmin:/var/lib/phpmyadmin
+php_admin_value[open_basedir] = /var/www/wartburg.com:/usr/share/php:/tmp:/usr/share/phpmyadmin:/etc/phpmyadmin:/var/lib/phpmyadmin
 php_admin_value[session.save_path] = 127.0.0.1:11211
 php_admin_value[upload_tmp_dir] = /var/www/wartburg.com/tmp
 php_admin_value[sendmail_path] = /usr/sbin/sendmail -t -i -fwebmaster@wartburg.com

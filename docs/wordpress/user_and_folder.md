@@ -23,7 +23,7 @@ echo $RANDOM_PASSWORD
 Use the random generated password as the user's password.
 
 ````
-adduser wartburg
+adduser wartburg_com
 ````
 
 * Check for home directory `ls /home/wartburg/`
@@ -39,10 +39,10 @@ mkdir -p /var/www/wartburg.com/{web,log,tmp}
 
 # Wordpress download
 
-* Login as wartbug user
+* Login as wartbug_com user
 
 ````
-su wartburg -l
+su wartburg_com -l
 ````
 
 * Change current directory where we will download Wordpress
@@ -85,5 +85,5 @@ ls /var/www/wartburg.com/web
 
 If you extracted the wordpress archive as root user then change the ownership as follows.
 ````
-chown -R wartburg.wartburg /var/www/wartburg.com/web
+chown -R wartburg_com.wartburg_com /var/www/wartburg.com/web
 ````
