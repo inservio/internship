@@ -46,7 +46,7 @@ grep DB_NAME wp-config.php
 grep DB_PASSWORD wp-config.php
 ````
 
-#### Backup the database with mysqdump
+#### Backup the database with mysqldump
 
 There is a variable that generates random numbers, test it with following command `echo $RANDOM`. We must have database dump with random number in file names for securty reasons.
 
@@ -59,7 +59,11 @@ check if the file was created
 ````
 ls *.sql
 ````
+#### Restore the database with mysql
 
+````
+mysql -h DATABASE_HOSTNAME -u DATABASE_USERNAME -p DATABASE_NAME > DATABASE_NAME_$RANDOM.sql
+````
 
 ## Create archive
 
