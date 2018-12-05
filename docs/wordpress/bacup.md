@@ -62,7 +62,7 @@ ls *.sql
 #### Restore the database with mysql
 
 ````
-mysql -h DATABASE_HOSTNAME -u DATABASE_USERNAME -p DATABASE_NAME > DATABASE_NAME_$RANDOM.sql
+mysql -h DATABASE_HOSTNAME -u DATABASE_USERNAME -p DATABASE_NAME < DATABASE_NAME_$RANDOM.sql
 ````
 
 ## Create archive
