@@ -5,6 +5,8 @@ parent: Shell
 permalink: /docs/shell/how-to-perform-arithmetic-operations-over-shell-variables/
 ---
 
+# Introduction
+
 Variables are typed in most programming languages, which means they are limited to certain types of data, such as numbers or characters. Shell variables are always remembered as $
 
 expr integer operator integer
@@ -20,7 +22,9 @@ The following operators are the important arithmetic operators:
 
 (%) Gives the module (rest) of the sharing.
 
-#### Examples
+## Demonstration
+
+### Examples
 
 Example arithmetic addition operation + "
 Example 2 + 1

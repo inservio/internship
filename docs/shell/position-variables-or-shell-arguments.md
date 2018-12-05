@@ -4,6 +4,7 @@ title: Position variables or shell arguments
 parent: Shell
 permalink: /docs/shell/position-variables-or-shell-arguments/
 ---
+# Introduction 
 
 When a shell interpreter handles the input order, it considers the first word i$
 If an executable file is a shell program, these arguments are passed to that pr$

@@ -5,6 +5,7 @@ parent: Shell
 permalink: /docs/shell/subshells-and-export-command/
 ---
 
+# Introduction
 
 When a shell executes a program, it sets a new environment.
 It is called subshell.
@@ -25,7 +26,10 @@ Variables defined by the user are all that you want to be.
 The variable names are composed of alphanumeric characters and underscores, provided that the names of the variables can not start from a digit from 0 to 9. Like all Linux names, t$
 The variables have the values when in the command line they are left of the equals sign (=).
 
-Example
+## Demonstration
+
+### Example
+
 {% highlight ruby %}
 
 NAME=Adi

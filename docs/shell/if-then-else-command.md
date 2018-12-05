@@ -5,10 +5,14 @@ parent: Shell
 permalink: /docs/shell/if-then-else-command/
 ---
 
+# Introduction
+
 During programming we usually want to perform one set of commands if the condition is met and the second set of commands if the condition is not met.
 In the shell, this can be achieved if you use the if-then-else construction.
 
-#### Example for if-then-else construction
+## Demonstration
+
+### Example for if-then-else construction
 
 {% highlight bash %}
 if [1 -lt 100]

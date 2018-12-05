@@ -4,6 +4,7 @@ title: Shell Script Programming
 parent: Shell
 permalink: /docs/shell/introduction-to-shell-script-programming/
 ---
+# Introduction
 
 ## What's the program?
 
