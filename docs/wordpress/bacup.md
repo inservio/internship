@@ -59,11 +59,6 @@ check if the file was created
 ````
 ls *.sql
 ````
-#### Restore the database with mysql
-
-````
-mysql -h DATABASE_HOSTNAME -u DATABASE_USERNAME -p DATABASE_NAME < DATABASE_NAME_$RANDOM.sql
-````
 
 ## Create archive
 
@@ -71,6 +66,12 @@ mysql -h DATABASE_HOSTNAME -u DATABASE_USERNAME -p DATABASE_NAME < DATABASE_NAME
 cd /var/www/site1.com/
 tar -cpzf site1.com.tar.gz web/
 ````
+
+* c - exctract
+* p - preserve permissions
+* z - zip
+* f - file
+
 
 check if the file was created
 
