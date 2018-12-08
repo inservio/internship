@@ -1,6 +1,6 @@
 ---
 layout: default
-title: WPCLI - Wordpress Command Line Interface      
+title: WPCLI      
 parent: Wordpress
 ---
 # WPCLI
@@ -130,7 +130,7 @@ wp search-replace 'http://old_domain.ba' 'http://new_domain.ba'
 ````
 
 
-## Secirity check with WPCLI
+## Security check with WPCLI
 
 
 ````
