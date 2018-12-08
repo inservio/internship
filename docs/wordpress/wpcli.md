@@ -115,8 +115,16 @@ wp db query "UPDATE wp_options SET option_value = '' WHERE option_name = 'active
 ``````
 
 
-### Change domain
+## Get domain / Set domain
 
+#### Get current domain - `home` and `siteurl`
+
+````
+wp option get home
+wp option get siteurl
+````
+
+#### Set new domain - `home` and `siteurl`
 
 ````
 wp option update home 'http://old_domain.com'
