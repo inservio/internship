@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 01 NginX Setup      
+title: NginX Setup      
 parent: Wordpress
 ---
 

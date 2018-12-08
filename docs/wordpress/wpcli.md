@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 03 WPCLI - Wordpress Command Line Interface      
+title: WPCLI - Wordpress Command Line Interface      
 parent: Wordpress
 ---
 # WPCLI
@@ -71,6 +71,17 @@ Change password for user with ID `1` which is the admin user
 wp user update 1 --user_pass=$UP3RstrongP4$$w0rd
 ````
 
+## Create posts with wpcli
+
+````
+wp post create --post_title='A post' --post_content='Just a small post.' --post_status=publish
+````
+
+## Set blog name / site name
+
+````
+wp option update blogname 'THIS IS MYYYYYY BLOG'
+````
 
 
 # Install and manage wp themes from WP CLI

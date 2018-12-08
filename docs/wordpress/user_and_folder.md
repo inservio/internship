@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 00 User Setup and Wordpress Download       
+title: User Setup and Wordpress Download       
 parent: Wordpress
 ---
 
