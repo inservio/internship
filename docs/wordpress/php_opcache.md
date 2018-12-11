@@ -6,6 +6,8 @@ parent: Wordpress
 
 # PHP Opcache
 
+Opcache will speed your PHP web site. This article will explain how to enable and configure the site.
+
 ## Install php opcache packages
 
 For PHP version 5.6
