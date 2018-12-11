@@ -22,3 +22,9 @@ To generate a CSR run the command below in terminal:
 ````
 openssl req -new -newkey rsa:2048 -nodes -keyout domain.key -out domain.csr
 ````
+
+# Merge bundle and certificate
+
+````
+cat domain_com.crt <(echo) domain_com.ca-bundle >domain_com_bundle.crt
+````
