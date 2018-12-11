@@ -36,6 +36,12 @@ chmod g-r /var/www/domain.com/web -R
 ls -al /var/www/domain.com/web
 ````
 
+# Remove all permissions
+
+````
+chmod 00000 /var/www/domain.com/web -R
+ls -al /var/www/domain.com/web
+````
 
 # Restore permissions
 
