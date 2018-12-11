@@ -50,7 +50,7 @@ In this example we will
 opcache.enable=1
 opcache.memory_consumption=128
 opcache.max_accelerated_files=4000
-opcache_revalidate_freq = 240
+opcache_revalidate_freq=240
 ````
 ### Enable opcache module
 
@@ -62,6 +62,14 @@ For other PHP versions
 
 ````
 phpenmod opcache
+````
+
+### Check if enabled
+
+For php 5.6
+
+````
+cat /etc/php/5.6/fpm/conf.d/*-opcache.ini
 ````
 
 ### Check phpinfo() for your site
