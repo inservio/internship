@@ -84,3 +84,11 @@ check the usage of the file
 ````
 du -hs *.tar.gz
 ````
+
+## How to gzip sql file
+
+* do the following
+
+```
+gzip -v example.sql
+```
