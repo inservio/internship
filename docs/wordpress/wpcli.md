@@ -108,6 +108,20 @@ Install and activate theme:
 wp theme install twentyfifteen --activate
 ```
 
+Activate only - switch to a different theme
+
+````
+wp theme activate twentysixteen
+````
+
+````
+wp theme activate twentyfifteen
+````
+
+````
+wp theme activate twentyseventeen
+````
+
 ##### Disable ALL plugins
 
 ````
