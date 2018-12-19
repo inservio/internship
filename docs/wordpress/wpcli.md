@@ -189,3 +189,13 @@ wp post list --format=ids | xargs wp post update --comment_status=closed
 ```
 $ wp post list --format=ids | xargs wp post update --ping_status=closed
 ```
+
+## Deleting comments on wp
+````
+wp comment delete 8 --force
+````
+
+## Deleting spam comments on wp
+````
+wp comment delete $(wp comment list --status=spam --format=ids)
+````
