@@ -13,7 +13,7 @@ I am using example.com ip address as an example.
 ````
 93.184.216.34
 ````
-To add this ip address we will firs need to edit hosts file with nano editor.
+To add this ip address we will first need to edit hosts file with nano editor.
 
 ````
 nano /etc/hosts
