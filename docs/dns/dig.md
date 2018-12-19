@@ -75,3 +75,9 @@ dig @ns1.google.com. google.com A
 {% highlight bash %}
 dig @ns1.google.com. google.com A +short
 {% endhighlight bash %}
+
+#### Query SPF Sender Policy Framework
+SPF is an alternative to storing SPF data in TXT records, using the same format. 
+{% highlight bash %}
+dig google.com TXT +short
+{% endhighlight bash %}
