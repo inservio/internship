@@ -28,3 +28,15 @@ openssl req -new -newkey rsa:2048 -nodes -keyout domain.key -out domain.csr
 ````
 cat domain_com.crt <(echo) domain_com.ca-bundle >domain_com_bundle.crt
 ````
+
+# HTTP Certificate validation
+
+````
+location /.well-known/pki-validation/xxxxxxxxxxxxxxxxxxxxxxxxxx.txt {
+   types {}
+   default_type text/html;
+   alias /tmp/xxxxxxxxxxxxxxxxxxxxxxxxxx.tx;
+}
+````
+
+nginx reload

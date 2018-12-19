@@ -48,7 +48,9 @@ Sekcija 8: Root korisnik
 
 
 
-```man 1 komanda````
+````
+man 1 komanda
+````
 
 
 Koristenje komande ```whatis``` omogucava pronalazenje man stranica za datu komandu.
