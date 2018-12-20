@@ -56,3 +56,11 @@ wp db columns wp_posts
 ````
 wp db query "SELECT * FROM wp_options"
 ````
+
+### Exporting databas using wp 
+
+* Run the command
+
+````
+wp db export example.sql
+````
