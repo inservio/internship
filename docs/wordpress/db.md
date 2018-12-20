@@ -57,10 +57,16 @@ wp db columns wp_posts
 wp db query "SELECT * FROM wp_options"
 ````
 
-### Exporting databas using wp 
+### Exporting and Importing databas using wp 
 
 * Run the command
 
 ````
 wp db export example.sql
+````
+
+* Importing 
+
+````
+wp db import new_example.sql
 ````
