@@ -50,3 +50,9 @@ wp db check
 ````
 wp db columns wp_posts
 ````
+
+* Run a query
+
+````
+wp db query "SELECT * FROM wp_options"
+````
