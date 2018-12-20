@@ -8,7 +8,7 @@ toc: true
 
 ## Introduction
 
-df - report file system disk space usage
+`df` - report file system disk space usage
 
 
 ### Getting help
@@ -20,13 +20,39 @@ man df
 
 ### Command ```df```
 
-we use when we want to get the attributes of all, or the specified file systems on the system.
+we use when we want to get the attributes of all, or the specified file systems on the operating system.
 
-Another option for df command ```df -m```
-we use when we want to display the free memory on hard disk in megabytes
+#### Display disk usage in MB
 
-Another option for df command ```df -h```
-we use when we want to display the free memory on hard disk in gigabytes
+```
+df -m
+```
 
-Another option for df command ```df -hT /home```
-in this example we use the command when we want to display only memory of /home in megabytes and in gigabytes
+we use when we want to display free memory on hard disk in megabytes
+
+#### Display disk usage in human-readable format
+
+````
+df -h
+````
+
+or
+````
+df --human-readable
+````
+
+#### Display disk usage and file system type
+
+```
+df -hT /home
+```
+
+in this example we use the command when we want to display disk usage of `/home` partition.
+
+#### Display inode usage on partition
+
+In this example we will display the inode disk usage on the root partition.
+
+````
+df -hi /
+````
