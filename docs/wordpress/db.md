@@ -70,3 +70,29 @@ wp db export example.sql
 ````
 wp db import new_example.sql
 ````
+
+### Exporting and Importing tables using wp
+
+* Run the command
+
+````
+wp db export --tables=$(wp db tables --url=http://example.com --format=csv)
+````
+
+* If we want to export certain table run the command
+
+````
+wp db export --tables=wp_posts
+````
+
+* Importing
+
+````
+wp db import wpposts_dump.sql
+````
+
+* If we want to list all database tables run the command
+
+````
+wp db tables --scope=blog --url=http://example.com
+````
