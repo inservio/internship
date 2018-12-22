@@ -96,3 +96,20 @@ wp db import wpposts_dump.sql
 ````
 wp db tables --scope=blog --url=http://example.com
 ````
+
+### Mysql db dunctions
+
+#### How to Export and Import certain table with mysqldump 
+
+* Run the command
+
+````
+mysqldump -u dbusername -h dbhost -p dbname table_name > table_name.sql
+````
+
+* Importing
+
+````
+mysql -u username -p dbname < /path/to/table_name.sql
+````
+
