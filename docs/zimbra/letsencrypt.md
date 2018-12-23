@@ -6,44 +6,45 @@ parent: Zimbra
 
 ### Stop zimbra service
 
+* Login as zimbra user and stop proxy and mailbox services.
+
 ````
 su -l zimbra
 zmproxyctl stop
 zmmailboxdctl stop
 ````
 
-or
+or stop all zimbra services
 
 ````
 zmcontrol stop
 ````
 
+### Add your domain to list
 
-### Add your domain to list (as user root)
+* As user root
 
 ````
 nano /root/certbot_komanda.sh
 ````
 
-Check again is everything ok!
+Check again if everything is ok.
 
 ````
 cat /root/certbot_komanda.sh
 ````
 
-### Run certificate generation (as user root)
+### Run certificate generation
+
+* As user root
 
 ````
 sh /root/certbot_komanda.sh
 ````
 
-### Append root certificate (as user root)
-
-https://www.identrust.com/certificates/trustid/root-download-x3.html
-
-to chain.pem
-
 ###### Append to `chain.pem`
+
+* As user root
 
 Append Identrust X3 Root Certificate, the following key to `chain.pem`
 
@@ -70,12 +71,15 @@ Ob8VZRzI9neWagqNdwvYkQsEjgfbKbYK7p2CNTUQ
 -----END CERTIFICATE-----
 ````
 
+Set permissions so zimbra user can read and write.
+
 ````
 cd /etc/letsencrypt/live/YourServer.inservioserver.com
 chmod 777 *
 su zimbra
 ````
 
+Check if necessary files exist in current directory.
 ````
 ls -alh
 ````
@@ -86,15 +90,12 @@ You should have following files
 cert.pem  chain.pem  fullchain.pem  privkey.pem
 ````
 
-````
-nano chain.pem
-````
-
 ### Verify certificate
 
-Should be run as user zimbra
+* Should be run as user zimbra
 
 ````
+whoami
 zmcertmgr verifycrt comm privkey.pem cert.pem chain.pem
 ````
 
@@ -108,32 +109,35 @@ Valid Certificate: cert.pem: OK
 
 It should say **Valid Certificate: cert.pem: OK**
 
-### Deploy (as user zimbra)
+### Deploy
 
 Before deploying a good practice is to backup the old cert.
 
+* as user zimbra
+
 ````
+whoami
 cp -a /opt/zimbra/ssl/zimbra /opt/zimbra/ssl/zimbra.$(date "+%Y%m%d")
 ````
 
-Before deploying the SSL Certificate, you need to move the privkey.pem under the Zimbra SSL commercial path, like this:
+Before deploying the SSL Certificate, you need to overwrite the existing `commercial.key` with `privkey.pem`.
 
 ````
 yes | cp ./privkey.pem /opt/zimbra/ssl/zimbra/commercial/commercial.key
 ````
 
-- !!!!!
-- overwrite: `y`
+### Final deploy
 
-
-### Final deploy (as user zimbra)
+* As user zimbra
 
 ````
 su zimbra
 zmcertmgr deploycrt comm cert.pem chain.pem
 ````
 
-### Zimbra restart (as user zimbra)
+### Zimbra restart
+
+* As user zimbra
 
 ````
 su -l zimbra
