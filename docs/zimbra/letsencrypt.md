@@ -22,29 +22,31 @@ zmcontrol stop
 ### Add your domain to list (as user root)
 
 ````
-nano /root/lets_komanda.sh
+nano /root/certbot_komanda.sh
 ````
 
 Check again is everything ok!
 
 ````
-cat /root/lets_komanda.sh
+cat /root/certbot_komanda.sh
 ````
 
 ### Run certificate generation (as user root)
 
 ````
-sh /root/lets_komanda.sh
+sh /root/certbot_komanda.sh
 ````
 
 ### Append root certificate (as user root)
 
 https://www.identrust.com/certificates/trustid/root-download-x3.html
+
 to chain.pem
 
 ###### Append to `chain.pem`
 
-Append following key to `chain.pem`
+Append Identrust X3 Root Certificate, the following key to `chain.pem`
+
 ````
 -----BEGIN CERTIFICATE-----
 MIIDSjCCAjKgAwIBAgIQRK+wgNajJ7qJMDmGLvhAazANBgkqhkiG9w0BAQUFADA/
@@ -70,6 +72,8 @@ Ob8VZRzI9neWagqNdwvYkQsEjgfbKbYK7p2CNTUQ
 
 ````
 cd /etc/letsencrypt/live/YourServer.inservioserver.com
+chmod 777 *
+su zimbra
 ````
 
 ````
@@ -78,7 +82,9 @@ ls -alh
 
 You should have following files
 
+````
 cert.pem  chain.pem  fullchain.pem  privkey.pem
+````
 
 ````
 nano chain.pem
@@ -89,8 +95,6 @@ nano chain.pem
 Should be run as user zimbra
 
 ````
-su -l zimbra
-cd /etc/letsencrypt/live/YourServer.domain.com
 zmcertmgr verifycrt comm privkey.pem cert.pem chain.pem
 ````
 
@@ -110,13 +114,12 @@ Before deploying a good practice is to backup the old cert.
 
 ````
 cp -a /opt/zimbra/ssl/zimbra /opt/zimbra/ssl/zimbra.$(date "+%Y%m%d")
-cd /etc/letsencrypt/live/YourServer.inservioserver.com
 ````
 
 Before deploying the SSL Certificate, you need to move the privkey.pem under the Zimbra SSL commercial path, like this:
 
 ````
-cp ./privkey.pem /opt/zimbra/ssl/zimbra/commercial/commercial.key
+yes | cp ./privkey.pem /opt/zimbra/ssl/zimbra/commercial/commercial.key
 ````
 
 - !!!!!
