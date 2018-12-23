@@ -84,7 +84,6 @@ cert.pem  chain.pem  fullchain.pem  privkey.pem
 nano chain.pem
 ````
 
-
 ### Verify certificate
 
 Should be run as user zimbra
@@ -92,7 +91,7 @@ Should be run as user zimbra
 ````
 su -l zimbra
 cd /etc/letsencrypt/live/YourServer.domain.com
-/opt/zimbra/bin/zmcertmgr verifycrt comm privkey.pem cert.pem chain.pem
+zmcertmgr verifycrt comm privkey.pem cert.pem chain.pem
 ````
 
 You will should following output to screen.
@@ -119,6 +118,7 @@ Before deploying the SSL Certificate, you need to move the privkey.pem under the
 ````
 cp ./privkey.pem /opt/zimbra/ssl/zimbra/commercial/commercial.key
 ````
+
 - !!!!!
 - overwrite: `y`
 
@@ -126,9 +126,9 @@ cp ./privkey.pem /opt/zimbra/ssl/zimbra/commercial/commercial.key
 ### Final deploy (as user zimbra)
 
 ````
-/opt/zimbra/bin/zmcertmgr deploycrt comm cert.pem chain.pem
+su zimbra
+zmcertmgr deploycrt comm cert.pem chain.pem
 ````
-
 
 ### Zimbra restart (as user zimbra)
 
