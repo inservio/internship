@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Zimbra Commands
+title: Commands
 parent: Zimbra
 ---
 

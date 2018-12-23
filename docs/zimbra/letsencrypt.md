@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Zimbra Let's Encrypt
+title: Let's Encrypt
 parent: Zimbra
 ---
 
