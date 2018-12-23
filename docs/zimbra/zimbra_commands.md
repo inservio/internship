@@ -9,9 +9,9 @@ parent: Zimbra
 ### Demonstration
 
 ```
-zmprov cd domain.com zimbraAuthMech zimbra 
+zmprov cd domain.com zimbraAuthMech zimbra
 ```
-## Creating account and modify 
+## Creating account and modify
 
 * We first need do generate random password
 * Run the command
@@ -36,7 +36,7 @@ zmprov ca account@domain.com $RANDOM_PASSWORD
 
 * Test check with webmail
 
-### Modify account 
+### Modify account
 
 * How to change user's password
 
@@ -45,3 +45,14 @@ zmprov ma email@domain.com UserPassword $RANDOM_PASSWORD
 ````
 
 * Again test with webmail
+
+
+
+
+## Get All Domains
+
+Check if the domain is on the list.
+
+````
+zmprov -l gad
+````
