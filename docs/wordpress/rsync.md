@@ -25,3 +25,9 @@ rsync -avz -e 'ssh -p 22' /var/www/blatusa.com/ root@server.com:/var/www/blatusa
 ````
 rsync -r source-directory destination-directory
 ````
+
+### Demonstration for rsync
+
+````
+rsync -avz -e 'ssh -p 22' /var/www/blatusa.com.tabemasu.inservioserver.com/web/wp_posts.sql tabemasu_jalijcl@tabemasu.inservioserver.com:/var/www/jalija.clone.com.tabemasu.inservioserver.com/web 
+````
