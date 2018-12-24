@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Command ping
+title: ping
 parent: Network
-permalink: /docs/network/how-to-send-icmp-echo-request-packets-to-network-hosts/
 ---
 
-# Introduction command ping 
+# Introduction command ping
 
 Using a ping command, we check whether a host is working.
 The Ping command sends a special message type, called Internet control echo request message, or an ICMP echo request (ICMP is an Internet control message protocol).

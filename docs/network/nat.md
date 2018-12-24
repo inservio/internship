@@ -2,7 +2,6 @@
 layout: default
 title: Network Address Translation (NAT)
 parent: Network
-permalink: /docs/network/network-address-translation/
 ---
 
 # Introduction

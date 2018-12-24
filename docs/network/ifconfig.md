@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Command ifconfig
+title: ifconfig
 parent: Network
 permalink: /docs/network/how-to-configure-network-interface-parameters/
 ---

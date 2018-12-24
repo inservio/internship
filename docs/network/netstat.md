@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Command Netstat
+title: Netstat
 parent: Network
 permalink: /docs/network/how-to-show-network-status/
 ---
