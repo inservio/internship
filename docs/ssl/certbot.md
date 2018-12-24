@@ -25,6 +25,14 @@ List of [plugins](https://certbot.eff.org/docs/using.html#getting-certificates-a
 
 ### webroot plugin
 
+You need to tell cerbot where your root folder, ot webroot, is located at. Find it with `grep` command.
+
+````
+grep root /etc/nginx/sites-enabled/domain.com.conf
+````
+
+In following example directory `/var/www/html/` is the **webroot**.
+
 ````
 /root/certbot-auto -m support@domain.org --agree-tos certonly --webroot -w /var/www/html/ -d hostname.domain.com
 ````
