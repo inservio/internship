@@ -19,3 +19,9 @@ In this example we will sync local `/var/www/blatusa.com` directory to remote se
 ````
 rsync -avz -e 'ssh -p 22' /var/www/blatusa.com/ root@server.com:/var/www/blatusa.com/
 ````
+
+### Another example for rsync
+
+````
+rsync -r source-directory destination-directory
+````
