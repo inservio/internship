@@ -55,10 +55,14 @@ man 1 komanda
 
 Koristenje komande ```whatis``` omogucava pronalazenje man stranica za datu komandu.
 
-```whatis crontab```
+```
+whatis crontab
+```
 
 
-```man ls```
+```
+man ls
+```
 -> man-om objasnjvamo komande i lista se sa f i b
 
 
@@ -70,4 +74,31 @@ Iz dokumentacije izlazimo sa ```q```
 Naredba info omogućava pristup do dokumenata koji čine drugi sistem pomoći, takozvane info-stranice. okumentaciju u ovom formatu imaju samo neki, većinom noviji programi posebno pisani upravo za Linux. Ukoliko ne postoji dokumentacija za traženi pojam među info-stranicama, naredba info će ispisati odgovarajuću man-stranicu (ako ona postoji).
 
 
-```info komanda```
+```
+info komanda
+```
+
+
+
+
+
+
+# man $configfile
+
+````
+man syslog.conf
+````
+
+# man $daemon
+
+````
+man syslogd
+````
+
+# whatis
+
+To see just the description of a manual page, use whatis followed by a string.
+
+````
+whatis route
+````

@@ -2,7 +2,6 @@
 layout: default
 title: Interactive Ruby
 parent: Ruby
-permalink: /docs/ruby/irb/
 ---
 
 ## How to start Interactive Ruby or IRB?
