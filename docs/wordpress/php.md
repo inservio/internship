@@ -110,3 +110,21 @@ apt-get install memcached php7.0-memcached
 ````
 systemctl start memcached
 ````
+
+### Editing php.ini file
+
+* Go to cd /etc/php/7.0/fpm/
+* Use command ls
+* Nano the php.ini file
+
+
+```` 
+Preferably, edit directives to these following values.
+
+memory_limit = 256M
+post_max_size = 64M
+upload_max_filesize = 64M
+max_execution_time = 300
+max_input_time = 1000
+	
+````
