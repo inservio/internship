@@ -45,3 +45,30 @@ grep '\.sock' /etc/nginx/sites-available/ -r
  ````
  systemctl status php7.0-fpm.service
  ````
+
+### Configurate extensions
+
+* To install PHP DOMDocument extension run the command
+
+````
+apt-get install php7.0-xml
+````
+
+* To install mbstring extension run the command
+
+````
+apt-get install php--mbstring
+````
+* Another option
+
+````
+apt-get install php7.0-mbstring
+````
+
+* Extension mbregex is enabled by default when installing mbstring
+
+* Chack the installed modules with the command 
+
+````
+php -m
+````
