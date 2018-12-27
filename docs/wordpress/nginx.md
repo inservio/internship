@@ -7,18 +7,47 @@ parent: Wordpress
 # NGINX
 
 
-### Install nginx package
+### Install the nginx package
 
 ```
 apt-get update
 apt-get install nginx zip unzip
 ```
 
-# Restart *nginx*
+### Restart *nginx*
 
 ```
 systemctl start nginx
 ```
+
+#### Configure number of `worker process` in `nginx.conf`
+
+By default `auto` is set by which nginx creates number of workers processes that equals the number of cpu cores.
+
+* Check ho many workers are running after nginx start.
+
+````
+ps aux | grep 'nginx: worker process'
+````
+
+* Check the current configuration
+
+````
+grep worker_processes --color /etc/nginx/nginx.conf
+````
+
+**Change worker_processes to something like 2 or 4**
+
+````
+nano /etc/nginx/nginx.conf
+````
+
+change
+
+````
+worker_processes = 2
+````
+
 
 ### Create .conf file in /etc/nginx/sites-available/
 
