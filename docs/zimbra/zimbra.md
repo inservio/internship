@@ -6,6 +6,6 @@ has_children: true
 permalink: /docs/zimbra/
 ---
 
-# Shell
+# Zimbra
 
 {:toc}
