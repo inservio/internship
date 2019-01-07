@@ -10,7 +10,7 @@ parent: Zimbra
 #### Find compressed messages
 
 ````
-find /opt/zimbra/store/ | xargs zgrep '<fristname.lastname@domain.tld>' > messages.gzip.list
+find /opt/zimbra/store/ | xargs zgrep -m1 -l '<fristname.lastname@domain.tld>' > messages.gzip.list
 ````
 
 ### Create message list
