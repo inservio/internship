@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to configurate nginx
+title: Understanding Nginx
 parent: Nginx
 permalink: /docs/nginx/how-to-configurate-nginx/
 ---
