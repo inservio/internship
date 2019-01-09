@@ -72,7 +72,42 @@ location optional_modifier location_match {
 ### Demonstration 
 
 ````
-location /site 
-
+location / {
+} 
+* pretrazuje root location 
+````
 
 ````
+location = /example {
+}
+* odgovara samo zahtjevu "/example"
+````
+
+````
+location ^~ /example {
+}
+* rezultira u case sensitive regular expression koji odgovara slučaju
+* to znaci da ce /example, /example/examp.gif, sve biti upareno 
+````
+
+````
+location ~ example  {
+}
+* kada location directive sljedi znak ~ nginx obavlja regular expression match.
+* te podudarnosti su uvijek case-sensitive.
+* tako da bi ````example```` odradio podudarnost ali ````ExAmple```` ne bi
+````
+
+````
+location ~* /example {
+}
+* funkcionise kao u prvom primjeru samo je sada insensitive version
+````
+
+````
+location ~ \. (gif|jpg|)$ {
+}
+* svi strings se prvo provjeravaju pa onda regular expressions,
+* regular expressions se podudaraju redosljedom kojim se pojavljuju u fajlu/datoteci
+````
+
