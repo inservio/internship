@@ -42,3 +42,37 @@ location{ (for matching url locations on incoming request to the parents server 
 ##### Tip
 When we modifie any .conf file we have to use command ```service nginx reload```
 And to chech if syntax is ok we use the command ```nginx -t```
+
+
+## Location blocks
+
+Location blocks nalaze se unutar server blocks ili drugih blokova lokacije i koriste se za odlucivanje kako obraditi URL zahtjev.
+URL zahtjev je dio koji dolazi nakon naziva domene ili IP adrese /, porta.
+
+````
+location optional_modifier location_match {
+}
+````
+
+* location match definira sta bi Nginx trebao provjeriti uz zahtjev URL.
+* Postojanje ili nepostojanje modifikatora u  primjeru ````location optional_modifier location_match```` utjece na nacin na koji se Nginx pokusava uskladiti s blokom lokacije.
+
+### Examples for modifiers
+
+* (none): if no modifiers are present, the location is interpreted as a prefix match
+
+* ````=```` If an equal sign is used, this block will be considered a match if the request URI exactly matches the location given.
+
+* ````~```` If a tilde modifier is present, this location will be interpreted as a case-sensitive regular expression match.
+
+* ````~*```` If a tilde and asterisk modifier is used, the location block will be interpreted as a case-insensitive regular expression match
+
+* ````^~````  If a carat and tilde modifier is present, and if this block is selected as the best non-regular expression match, regular expression matching will not take place.
+
+### Demonstration 
+
+````
+location /site 
+
+
+````
