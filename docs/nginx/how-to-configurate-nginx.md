@@ -111,3 +111,30 @@ location ~ \. (gif|jpg|)$ {
 * regular expressions se podudaraju redosljedom kojim se pojavljuju u fajlu/datoteci
 ````
 
+## Return direvtive 
+
+Da bi koristili direktivu return, ona mora biti zatvorena unutar server ili location blocka koji URL-ovi trebaju biti prepisani.
+
+### Example
+
+````
+
+server {
+ listen 80;
+ 
+ server_name www.old-website.com;
+ 
+ return 301 $scheme://www.new-website.com$request_uri;
+}
+````
+
+U gorenjem primjeru, stara adresa web lokacije odgovara URL-u koji se trazi od klijenta.
+Direktiva return bi zatim vratila 301 status code u browser i preusmjerila klijenta na novu adresu web lokacije.
+
+Nginx variabla $scheme koristi se za definiranje protokola (http ili https) dok je $request_uri za potpuni URI
+
+
+#### 301 status code explain
+
+The HTTP response status code 301 is used for permanent URL redirection, meaning current links or records using the URL that the response is received for should be updated. 
+The new URL should be provided in the Location field included with the response. 
