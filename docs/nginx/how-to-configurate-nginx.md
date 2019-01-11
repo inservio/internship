@@ -138,3 +138,23 @@ Nginx variabla $scheme koristi se za definiranje protokola (http ili https) dok 
 
 The HTTP response status code 301 is used for permanent URL redirection, meaning current links or records using the URL that the response is received for should be updated. 
 The new URL should be provided in the Location field included with the response. 
+
+### try_files directive
+
+A very common try_files line is 
+
+````
+location / {
+    try_files $uri $uri/ test/images/index.html;
+}
+````
+
+* ````location / ```` ima zadatak da odgovara svim lokacijama, osim ako se ne podudara s odredjenom lokacijom, npr lokacija / example.
+
+* Drugi dio ````try_files```` znaci kada primimo URI koji se podudara s ovim blokom, ````try $uri```` na primjer http:/example.com/images/image.jpg nginx ce pkusati provjeriti da li postoji datoteka unutar /images nazvana image.jpg ako pronadje prvo ce posluziti.
+
+* Second condition je $uri/ sto znaci da ako nismo pronasli prvi uvjet $ uri pokusajte URI kao direktorij, npr http://example.com/images/, nginx ce prvo provjeriti da li postoji datoteka koja se zove images, onda ako ne pronajdemo, prelazmo na drugi $uri/ i tu provjeravamo da li postoji direktorij images ako postoji onda ce pokusati posluziti.
+
+* Treci condition /test/index.html;
+ 
+Smatra se fall back option,(moramo koristiti najmanje dvije opcije jednu i povratnu), mozemo koristiti onoliko koliko zelimo, nginx ce traziti datoteku index.html unutar test dir i posluziti ako postoji.
