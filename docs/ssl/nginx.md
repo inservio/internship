@@ -28,3 +28,13 @@ if ($scheme != "https") {
   rewrite ^   https://$server_name$request_uri? permanent;
  }
  ````
+
+### How to override amche challenge url
+
+````
+        location ~ /\.well-known/acme-challenge/ {
+           root /var/www/html/;
+           index index.html index.htm;
+           try_files $uri =404;
+        }
+````
