@@ -31,64 +31,92 @@ What we will need is:
 
 ## Demostration and example
 
-Moj prvi korak je bio logovanje na example.inservioserver.com -p 2222
+Moj prvi korak je bio logovanje na sourceserver -p 2222
 Onda sam urdio navigaciju na /var/www, pronasao sam direktorij example.
 
 Pogledao sam sve fajlove i ostale direktorije uradio sam kompletan pregled dokumentacije.
 
 Zadatak koji sam dobio je migracija fajlova u novi direktorij pod nazivom newexample.com
 
-Takodjer trebam podici i na novi hosing https://newexample.com:10000/
+Takodjer trebam podici i na novi hosing https://destinationserver.com:10000/
 
 Ja sam shvatio da trebam koristiti mysql i wp alatku. Moja vizija i zamisao rijesavanja ovog zadatka je sljedeca:
 
-Kreiram novi direktorij komandom mkdir -p /var/www/newexample.com{web,tmp,log}
+Kreiram novi direktorij komandom mkdir -p /var/www/newdirectory.com{web,tmp,log}
 
 Izvrsim odredjene izmjene u nginx novi nginx conf
 
+## Questions
+* 1)Iz kojeg foldera radimo migraciju ?
+* Odgovor: Uradimo navigaciju na source server /var/www/directory.com/web  
+* 2)Na koji server radimo migraciju ? 
+* Odgovor: Migraciju radimo na zeljeni destination server
+* 3)Sa kojeg servera vrsimo migraciju ?
+* Odgvor: Migraciju vrsimo sa zeljenog source servera
+* 4) U koji folder radimo migraciju ?
+* Odgovor: Uradimo navigaciju na destination server /var/www/newdirectory.com/web
+* 5) Lista protokol 
+* 6) Odgovor: FTP, SSH u momo slucaju je SSH protokol
 
+
+### Korak 1
 Stavka napraviti arhivu: 
 
 
 ````
-$ cd /var/www/example.com/
-$ tar -cpzf example.com.tar.gz
+* Nalazim se na  source serveru
+$ cd /var/www/directory.com/
+$ tar -cpzf directory.com.tar.gz
 ````
 
-
-
+### Korak 2 
 Stavka uraditi backup baze komandom
 ````
 mysqldump -h DATABASE_HOSTNAME -u DATABASE_USERNAME -p DATABASE_NAME > "DATABASE_NAME_$RANDOM.sql"
 ````
+* Na sourceserveru
+* login kao wp user su user
+* Uraditi navigaciju u /var/www/directory.com/web/
 
 Provjeravam host sljedecom komandom ```` grep DB_HOST  wp-config.php````
 Provjeravam database_username ````grep DB_USER wp-config.php````
 Provjeravam database_name ````grep DB_NAME wp-config.php````
 
+### Korak 3
 Stavka option rsync
 Uraditi rsync directories
 
 Instalirati rsync komandom ````apt-get install rsync````
 
 ````
-rsync -avz -e 'ssh -p 22' /var/www/example.com/web/example.sql databasename@examplenameserver.inservioserver.com:/var/www/newexample.com/web
+rsync -avz -e 'ssh -p 22' /var/www/sourceserver/web/examplefile.sql databasename@sourceservere:/var/www/newdirectory.com/web
 ````
+### Korak 4
 Sljedeci korak uraditi restore tar.gz arhive komandom
+
+* Nalazim se na destination serveru
 
 ````tar -xzvf archive.tar.gz````
 
+### Korak 5
 Onda uraditi import database
 mysql -h DATABASE_HOSTNAME -u DATABASE_USERNAME -p DATABASE_NAME < DATABASE_NAME.sql
 
+### Korak 6
 Dodijeliti odredjene permissions 
+* Nalazim se na  destination serveru
+* Postavljam permissions za modifikovanje fajlova
 
-````chown -R newuser.newuser /var/www/example.com/web````
+````chown -R newuser.newuser /var/www/newdirectory.com/web````
 
-I na kraju izvrsiti izmjene u wp-config.php fajlu
+* Nalazim se na destination serveru
+
+### Korak 7
+I na kraju izvrsiti izmjene u /var/www/newdirectory.com/web/wp-config.php fajlu
+
+* komandom nano wp-config.php
 
 Promjeniti username
 Pormjeniti password
 Promjeniti databse
 
-(Working on this more)
