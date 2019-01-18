@@ -89,7 +89,8 @@ Uraditi rsync directories
 Instalirati rsync komandom ````apt-get install rsync````
 
 ````
-rsync -avz -e 'ssh -p 22' /var/www/sourceserver/web/examplefile.sql databasename@sourceservere:/var/www/newdirectory.com/web
+* From source server to destination server
+rsync -avz -e 'ssh -p 22' /var/www/directory/web/examplefile.sql databasename@sourceservere:/var/www/newdirectory.com/web
 ````
 ### Korak 4
 Sljedeci korak uraditi restore tar.gz arhive komandom
